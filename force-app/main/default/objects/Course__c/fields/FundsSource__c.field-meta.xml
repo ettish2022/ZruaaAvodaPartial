@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FundsSource__c</fullName>
+    <description>סוג ההכשרה</description>
+    <externalId>false</externalId>
+    <label>Funds Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>With Budget</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>Haredim</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>Minorities</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <label>With Disablities</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>Risk Youth</label>
+            </value>
+            <value>
+                <fullName>6</fullName>
+                <default>false</default>
+                <label>Independent Parents</label>
+            </value>
+            <value>
+                <fullName>7</fullName>
+                <default>false</default>
+                <label>Welfare population</label>
+            </value>
+            <value>
+                <fullName>8</fullName>
+                <default>false</default>
+                <label>Ethiopian Immigrants</label>
+            </value>
+            <value>
+                <fullName>9</fullName>
+                <default>false</default>
+                <label>Soldiers</label>
+            </value>
+            <value>
+                <fullName>10</fullName>
+                <default>false</default>
+                <label>Hotels</label>
+            </value>
+            <value>
+                <fullName>11</fullName>
+                <default>false</default>
+                <label>Day Care</label>
+            </value>
+            <value>
+                <fullName>12</fullName>
+                <default>false</default>
+                <label>With Corona Budget</label>
+            </value>
+            <value>
+                <fullName>13</fullName>
+                <default>false</default>
+                <label>Youth</label>
+            </value>
+            <value>
+                <fullName>14</fullName>
+                <default>false</default>
+                <label>Starter</label>
+            </value>
+            <value>
+                <fullName>15</fullName>
+                <default>false</default>
+                <label>Welfare</label>
+            </value>
+            <value>
+                <fullName>16</fullName>
+                <default>false</default>
+                <label>Green Route</label>
+            </value>
+            <value>
+                <fullName>אוכלוסיית רווחה</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>אוכלוסיית רווחה</label>
+            </value>
+            <value>
+                <fullName>אנשים עם מוגבלות</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>אנשים עם מוגבלות</label>
+            </value>
+            <value>
+                <fullName>הורים עצמאיים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>הורים עצמאיים</label>
+            </value>
+            <value>
+                <fullName>חיילים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>חיילים</label>
+            </value>
+            <value>
+                <fullName>חרדים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>חרדים</label>
+            </value>
+            <value>
+                <fullName>יוצאי אתיופיה</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>יוצאי אתיופיה</label>
+            </value>
+            <value>
+                <fullName>מיעוטים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>מיעוטים</label>
+            </value>
+            <value>
+                <fullName>מלונאות</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>מלונאות</label>
+            </value>
+            <value>
+                <fullName>מסלול ירוק</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>מסלול ירוק</label>
+            </value>
+            <value>
+                <fullName>מעונות יום</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>מעונות יום</label>
+            </value>
+            <value>
+                <fullName>מתוקצב</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>מתוקצב</label>
+            </value>
+            <value>
+                <fullName>מתוקצב קורונה</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>מתוקצב קורונה</label>
+            </value>
+            <value>
+                <fullName>נוער</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>נוער</label>
+            </value>
+            <value>
+                <fullName>סטארטר</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>סטארטר</label>
+            </value>
+            <value>
+                <fullName>צעירים בסיכון</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>צעירים בסיכון</label>
+            </value>
+            <value>
+                <fullName>רווחה</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>רווחה</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

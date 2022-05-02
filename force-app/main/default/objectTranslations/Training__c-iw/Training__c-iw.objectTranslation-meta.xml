@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>הכשרה</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>הכשרות</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>הכשרה Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי כתובת</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי תאריך</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>UpdateTraining</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Complete_Mandatory_Fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>New_Profession_Checkbox</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>No_Profession</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Only_One_Profession</name>
+    </validationRules>
+</CustomObjectTranslation>

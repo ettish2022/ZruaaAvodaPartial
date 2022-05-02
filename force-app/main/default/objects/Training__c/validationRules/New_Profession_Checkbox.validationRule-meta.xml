@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Profession_Checkbox</fullName>
+    <active>true</active>
+    <description>יש לוודא סימון שדה מגמה חדשה, כששדה תיאור מגמה חדשה אינו ריק</description>
+    <errorConditionFormula>Profession__c &lt;&gt; NULL &amp;&amp;  New_Profession__c = FALSE</errorConditionFormula>
+    <errorDisplayField>New_Profession__c</errorDisplayField>
+    <errorMessage>יש לסמן את התיבה מגמה חדשה</errorMessage>
+</ValidationRule>

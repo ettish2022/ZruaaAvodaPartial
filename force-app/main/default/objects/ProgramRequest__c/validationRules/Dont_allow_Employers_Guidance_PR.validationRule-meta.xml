@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dont_allow_Employers_Guidance_PR</fullName>
+    <active>true</active>
+    <description>יש למנוע יצירת המלצה למעסיק עבור תוכנית ליווי והכוונת מעסיקים</description>
+    <errorConditionFormula>Program__r.External_Program_Id__c = &quot;employerstraining&quot;</errorConditionFormula>
+    <errorMessage>לא ניתן להמליץ על תוכנית &quot;ליווי והכוונת מעסיקים&quot;. אנא בחרו תוכנית אחרת</errorMessage>
+</ValidationRule>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>חרדים</fullName>
+        <default>false</default>
+        <label>חרדים</label>
+    </customValue>
+    <customValue>
+        <fullName>אוכלוסיית החברה הערבית</fullName>
+        <default>false</default>
+        <label>אוכלוסיית החברה הערבית</label>
+    </customValue>
+    <customValue>
+        <fullName>רווחה</fullName>
+        <default>false</default>
+        <label>רווחה</label>
+    </customValue>
+    <customValue>
+        <fullName>אנשים עם מוגבלות</fullName>
+        <default>false</default>
+        <label>אנשים עם מוגבלות</label>
+    </customValue>
+    <customValue>
+        <fullName>ישראלים יוצאי אתיופיה</fullName>
+        <default>false</default>
+        <label>ישראלים יוצאי אתיופיה</label>
+    </customValue>
+    <customValue>
+        <fullName>צעירים בסיכון</fullName>
+        <default>false</default>
+        <label>צעירים בסיכון</label>
+    </customValue>
+    <customValue>
+        <fullName>הורים יחידים</fullName>
+        <default>false</default>
+        <label>הורים יחידים</label>
+    </customValue>
+    <customValue>
+        <fullName>45 פלוס</fullName>
+        <default>false</default>
+        <label>45 פלוס</label>
+    </customValue>
+    <customValue>
+        <fullName>40 פלוס</fullName>
+        <default>false</default>
+        <label>40 פלוס</label>
+    </customValue>
+    <customValue>
+        <fullName>אנשים עם מוגבלות- מסלול שני</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>אנשים עם מוגבלות- מסלול שני</label>
+    </customValue>
+    <customValue>
+        <fullName>מבוגרים</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>מבוגרים</label>
+    </customValue>
+    <customValue>
+        <fullName>יוצאי אתיופיה</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>יוצאי אתיופיה</label>
+    </customValue>
+    <customValue>
+        <fullName>אנשים עם מוגבלות- מסלול ראשון</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>אנשים עם מוגבלות- מסלול ראשון</label>
+    </customValue>
+    <customValue>
+        <fullName>ערבים, דרוזים וצ&apos;רקסיים</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ערבים, דרוזים וצ&apos;רקסיים</label>
+    </customValue>
+    <customValue>
+        <fullName>40 פלוס- מסלול שני</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>40 פלוס- מסלול שני</label>
+    </customValue>
+    <description>אוכלוסיות להקצאת שוברים עבור תוכנית שובר למעסיק</description>
+    <masterLabel>Voucher Stock Population</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

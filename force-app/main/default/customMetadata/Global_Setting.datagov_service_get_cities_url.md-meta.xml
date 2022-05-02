@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>datagov_service_get_cities_url</label>
+    <protected>true</protected>
+    <values>
+        <field>Value__c</field>
+        <value xsi:type="xsd:string">https://data.gov.il/api/3/action/datastore_search?resource_id=351d4347-8ee0-4906-8e5b-9533aef13595</value>
+    </values>
+</CustomMetadata>

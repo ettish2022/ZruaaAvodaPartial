@@ -61,12 +61,21 @@
         <members>Account</members>
         <members>Contact</members>
         <members>Case</members>
+		<members>PersonAccount</members>
         <name>CustomObject</name>
     </types>
 	<types>
 		<members>*</members>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Case</members>
+		<members>PersonAccount</members>
 		<name>CustomObjectTranslation</name>
 	</types>
+    <types>
+        <members>*</members>
+        <name>Dashboard</name>
+    </types>
 	<types>
 		<members>*</members>
 		<name>Document</name>
@@ -143,6 +152,10 @@
 		<members>*</members>
 		<name>QuickAction</name>
 	</types>
+    <types>
+        <members>*</members>
+        <name>Report</name>
+    </types>
 	<types>
 		<members>*</members>
 		<name>ReportType</name>

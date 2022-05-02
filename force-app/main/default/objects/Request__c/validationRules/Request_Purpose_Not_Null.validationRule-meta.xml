@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Purpose_Not_Null</fullName>
+    <active>true</active>
+    <description>If &quot;Other&quot; was chosen in &quot;Request purpose&quot; filed- Request_Purpose_Notes must be not Null</description>
+    <errorConditionFormula>ISBLANK(  Request_Purpose_Notes__c )&amp;&amp; ISPICKVAL( Request_Purpose__c , &quot;אחר&quot;)</errorConditionFormula>
+    <errorDisplayField>Request_Purpose_Notes__c</errorDisplayField>
+    <errorMessage>במקרה בשבחרת &quot;אחר&quot; בשדה מטרת הבקשה, יש למלא את המטרה בשדה זה</errorMessage>
+</ValidationRule>

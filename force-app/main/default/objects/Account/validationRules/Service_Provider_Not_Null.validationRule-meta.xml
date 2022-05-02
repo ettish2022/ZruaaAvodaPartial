@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Provider_Not_Null</fullName>
+    <active>true</active>
+    <description>If an Account is a partner, the Service provider field must be not Null</description>
+    <errorConditionFormula>Partner__c = true &amp;&amp;  ISPICKVAL( Service_provider__c , &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Service_provider__c</errorDisplayField>
+    <errorMessage>Select Service provider</errorMessage>
+</ValidationRule>

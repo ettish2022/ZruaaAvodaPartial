@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>אשכולות</label>
+    <name>BusinessCluster__c</name>
+    <picklistValues>
+        <masterLabel>Beit Hakerem</masterLabel>
+        <translation>בית הכרם</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eastern Galilee</masterLabel>
+        <translation>גליל מזרחי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eastern Negev</masterLabel>
+        <translation>נגב מזרחי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Galilee and valleys</masterLabel>
+        <translation>גליל והעמקים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hamifratz authorities</masterLabel>
+        <translation>רשויות המפרץ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hasharon</masterLabel>
+        <translation>השרון</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kinneret and valleys</masterLabel>
+        <translation>כנרת והעמקים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southern Sorek</masterLabel>
+        <translation>שורק דרומי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Western Galilee</masterLabel>
+        <translation>גליל מערבי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Western Negev</masterLabel>
+        <translation>נגב מערבי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yosh</masterLabel>
+        <translation>יו&quot;ש</translation>
+    </picklistValues>
+</CustomFieldTranslation>

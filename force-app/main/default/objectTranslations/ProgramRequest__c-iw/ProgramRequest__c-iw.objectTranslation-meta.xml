@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>התכנית למעסיק</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>תכנית למעסיק</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>התכניות למעסיק</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>תכניות למעסיק</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>OJT Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>כמות עובדים שאושרו בחלוקה לאוכלוסיות</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>מידע שהתקבל מהמפעיל</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי אישור</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי חונך</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי כתובת</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי מקצוע</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ProgramRequest Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי אישור</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>איתור וגיוס עובדים</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי אישור</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>כיתה במפעל</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>כתובות הכשרה</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי אישור</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>מסלול ירוק מכללות</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי אישור</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>מסלול ירוק מעסיקים</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי אישור</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>סטארטר</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי אישור</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>שובר למעסיק</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי הבקשה</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>מספר תוכנית למעסיק</nameFieldLabel>
+    <recordTypes>
+        <label></label>
+        <name>Atidaim</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Disabilities_Support</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Employers_Guidance</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Factory_Class</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Green_Course_College</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Green_Course_Employer</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>National_Program</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>OJT_Recommendation</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Online_Courses</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Recruiting_Employees</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>SKILLUP</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Shovar_Lamaasik</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Starter</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>State_funded_courses</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Approving_Vouchers_Once</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Dont_allow_Employers_Guidance_PR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>No_Rejection_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Out_Of_Stock</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Partial_Approving_Vouchers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Status_When_Approving_Vouchers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Up_to_10_Vouchers</name>
+    </validationRules>
+</CustomObjectTranslation>

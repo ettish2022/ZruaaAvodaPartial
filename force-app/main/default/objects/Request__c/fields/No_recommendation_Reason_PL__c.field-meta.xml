@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_recommendation_Reason_PL__c</fullName>
+    <externalId>false</externalId>
+    <label>סיבת אי מתן המלצה לתוכנית</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Closing_Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>גודל המעסיק לא מתאים</fullName>
+                <default>false</default>
+                <label>גודל המעסיק לא מתאים</label>
+            </value>
+            <value>
+                <fullName>תחום העיסוק לא מתאים</fullName>
+                <default>false</default>
+                <label>תחום העיסוק לא מתאים</label>
+            </value>
+            <value>
+                <fullName>אין מענה לצורך הנדרש</fullName>
+                <default>false</default>
+                <label>אין מענה לצורך הנדרש</label>
+            </value>
+            <value>
+                <fullName>אחר</fullName>
+                <default>false</default>
+                <label>אחר</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>לא נמצאה תוכנית מתאימה</controllingFieldValue>
+            <valueName>גודל המעסיק לא מתאים</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>לא נמצאה תוכנית מתאימה</controllingFieldValue>
+            <valueName>תחום העיסוק לא מתאים</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>לא נמצאה תוכנית מתאימה</controllingFieldValue>
+            <valueName>אין מענה לצורך הנדרש</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>לא נמצאה תוכנית מתאימה</controllingFieldValue>
+            <valueName>אחר</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

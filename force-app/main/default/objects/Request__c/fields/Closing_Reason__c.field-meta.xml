@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closing_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Closing Reason</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>לא ניתן ליצור קשר</fullName>
+                <default>false</default>
+                <label>לא ניתן ליצור קשר</label>
+            </value>
+            <value>
+                <fullName>המעסיק חזר בו מפנייתו</fullName>
+                <default>false</default>
+                <label>המעסיק חזר בו מפנייתו</label>
+            </value>
+            <value>
+                <fullName>לא נמצאה תוכנית מתאימה</fullName>
+                <default>false</default>
+                <label>לא נמצאה תוכנית מתאימה</label>
+            </value>
+            <value>
+                <fullName>בקשה כפולה</fullName>
+                <default>false</default>
+                <label>בקשה כפולה</label>
+            </value>
+            <value>
+                <fullName>לא רלוונטי</fullName>
+                <default>false</default>
+                <label>לא רלוונטי</label>
+            </value>
+            <value>
+                <fullName>הועבר לטיפול בתוכנית</fullName>
+                <default>false</default>
+                <label>מיפוי בוצע בהצלחה</label>
+            </value>
+            <value>
+                <fullName>הועבר לטיפול המפעיל</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>הועבר לטיפול המפעיל</label>
+            </value>
+            <value>
+                <fullName>הועבר למילוי טפסים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>הועבר למילוי טפסים</label>
+            </value>
+            <value>
+                <fullName>לא ניתנה המלצה</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>לא ניתנה המלצה</label>
+            </value>
+            <value>
+                <fullName>נתונים שגויים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>נתונים שגויים</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Case</fullName>
+    <fields>Status</fields>
+    <fields>Subject</fields>
+    <fields>CaseNumber</fields>
+    <fields>Program__c</fields>
+    <fields>Responsible_contact_Email__c</fields>
+    <fields>ParentId</fields>
+    <fields>Origin</fields>
+    <fields>AccountId</fields>
+    <label>Request Case</label>
+</CompactLayout>

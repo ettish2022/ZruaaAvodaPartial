@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digital_Course_and_Profession</fullName>
+    <active>true</active>
+    <description>Digital should be selected when digital course is created (ProfessionCourse__r.Digital__c)</description>
+    <errorConditionFormula>RecordType.DeveloperName =&quot;Digital_Course&quot; &amp;&amp;  ProfessionCourse__r.Digital__c = FALSE</errorConditionFormula>
+    <errorDisplayField>ProfessionCourse__c</errorDisplayField>
+    <errorMessage>Digital should be selected as major when digital course is created</errorMessage>
+</ValidationRule>

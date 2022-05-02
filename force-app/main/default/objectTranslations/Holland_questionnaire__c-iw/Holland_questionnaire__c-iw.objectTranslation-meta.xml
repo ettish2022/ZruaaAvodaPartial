@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>שאלון הולנד</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>שאלוני הולנד</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>שאלון הולנד Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>תוצאות הטיפוסים</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>תשובות לשאלות</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>value_from_API_invalid_a1_20</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>value_from_API_invalid_a21_40</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>value_from_API_invalid_a41_60</name>
+    </validationRules>
+</CustomObjectTranslation>

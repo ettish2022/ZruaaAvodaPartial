@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stock_Descprition__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Population_type__c ,
+
+&quot;חרדים&quot;, &quot;גברים חרדים או נשים חרדיות בגילאי העבודה, אשר עונים להגדרות כפי הכתוב בנוהל שוברים למעסיקים&quot;,
+&quot;אוכלוסיית החברה הערבית&quot;, &quot;תושבי/ות קבע או אזרחים/ות בגילאי העבודה אשר משתייכים לאחת מהקבוצות הבאות: ערבים, בדואים, דרוזים וצ&apos;רקסיים, אשר עונים להגדרות כפי הכתוב בנוהל שוברים למעסיקים &quot;,
+&quot;אנשים עם מוגבלות&quot;, &quot;מי שנקבעה לו/ה לכל הפחות 20% נכות ומעלה מביטוח לאומי או ממשרד הביטחון, אשר עונים להגדרות כפי הכתוב בנוהל שוברים למעסיקים &quot;,
+&quot;רווחה&quot;, &quot;אדם אשר יש לו תיק באחת ממחלקות הרווחה העירונית ו/או מטופל על ידי כלים או תוכניות תעסוקה של אגף תעסוקת רווחה, אשר עונים להגדרות כפי הכתוב בנוהל שוברים למעסיקים&quot;,
+&quot;ישראלים יוצאי אתיופיה&quot;, &quot;מי שהוא או אחד מהוריו נולד באתיופיה, אשר עונים להגדרות כפי הכתוב בנוהל שוברים למעסיקים&quot;,
+&quot;הורים יחידים&quot;, &quot;כהגדרתם בחוק סיוע למשפחות שבראשן הורה עצמאי, תשנב-1992, אשר עונים להגדרות כפי הכתוב בנוהל שוברים למעסיקים&quot;,
+&quot;צעירים בסיכון&quot;, &quot;צעירים בני 30, לכל היותר, אשר עונים להגדרות כפי הכתוב בנוהל שוברים למעסיקים&quot;,
+&quot;45 פלוס&quot;, &quot;גברים ונשים בגילאי 45 ומעלה, אשר עונים להגדרות כפי הכתוב בנוהל שוברים למעסיקים&quot;,
+&quot;40 פלוס&quot;, &quot;גברים ונשים בגילאי 40 ומעלה, אשר עונים להגדרות כפי הכתוב בנוהל שוברים למעסיקים&quot;,
+
+&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>תיאור אוכלוסייה</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

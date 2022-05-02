@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MainAndAltInSameOccGroup</fullName>
+    <active>true</active>
+    <description>וידוא כי העיסוק האלטרנטיבי והעיסוק הראשי תחת אותו משלח היד</description>
+    <errorConditionFormula>IsAlternativeOccupation__c =TRUE &amp;&amp;
+OccupationGroupIscoConnection__c  &lt;&gt;  LookupToMainOccupation__r.OccupationGroupIscoConnection__c &amp;&amp;
+ LookupToMainOccupation__c  &lt;&gt; NULL</errorConditionFormula>
+    <errorDisplayField>LookupToMainOccupation__c</errorDisplayField>
+    <errorMessage>משלחי היד שונים בין העיסוק הראשי לעיסוק זה</errorMessage>
+</ValidationRule>

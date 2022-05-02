@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sector__c</fullName>
+    <externalId>false</externalId>
+    <label>ענף</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>בניין וסביבה</fullName>
+                <default>false</default>
+                <label>בניין וסביבה</label>
+            </value>
+            <value>
+                <fullName>מחשבים</fullName>
+                <default>false</default>
+                <label>מחשבים</label>
+            </value>
+            <value>
+                <fullName>תחבורה</fullName>
+                <default>false</default>
+                <label>תחבורה</label>
+            </value>
+            <value>
+                <fullName>דפוס צילום והפקה</fullName>
+                <default>false</default>
+                <label>דפוס צילום והפקה</label>
+            </value>
+            <value>
+                <fullName>טיפוח החן</fullName>
+                <default>false</default>
+                <label>טיפוח החן</label>
+            </value>
+            <value>
+                <fullName>הצלה ומקצועות ימיים</fullName>
+                <default>false</default>
+                <label>הצלה ומקצועות ימיים</label>
+            </value>
+            <value>
+                <fullName>מינהל</fullName>
+                <default>false</default>
+                <label>מינהל</label>
+            </value>
+            <value>
+                <fullName>חינוך וטיפול</fullName>
+                <default>false</default>
+                <label>חינוך וטיפול</label>
+            </value>
+            <value>
+                <fullName>מערכות אנרגיה ומים</fullName>
+                <default>false</default>
+                <label>מערכות אנרגיה ומים</label>
+            </value>
+            <value>
+                <fullName>מתכת/מכונות</fullName>
+                <default>false</default>
+                <label>מתכת/מכונות</label>
+            </value>
+            <value>
+                <fullName>רכב</fullName>
+                <default>false</default>
+                <label>רכב</label>
+            </value>
+            <value>
+                <fullName>הארחה</fullName>
+                <default>false</default>
+                <label>הארחה</label>
+            </value>
+            <value>
+                <fullName>חשמל ואלקטרוניקה</fullName>
+                <default>false</default>
+                <label>חשמל ואלקטרוניקה</label>
+            </value>
+            <value>
+                <fullName>אופנה וטקסטיל</fullName>
+                <default>false</default>
+                <label>אופנה וטקסטיל</label>
+            </value>
+            <value>
+                <fullName>עץ</fullName>
+                <default>false</default>
+                <label>עץ</label>
+            </value>
+            <value>
+                <fullName>פרה-רפואי</fullName>
+                <default>false</default>
+                <label>פרה-רפואי</label>
+            </value>
+            <value>
+                <fullName>שונות</fullName>
+                <default>false</default>
+                <label>שונות</label>
+            </value>
+            <value>
+                <fullName>מקצועות יהדות</fullName>
+                <default>false</default>
+                <label>מקצועות יהדות</label>
+            </value>
+            <value>
+                <fullName>תעשייה וניהול</fullName>
+                <default>false</default>
+                <label>תעשייה וניהול</label>
+            </value>
+            <value>
+                <fullName>חקלאות ונוי</fullName>
+                <default>false</default>
+                <label>חקלאות ונוי</label>
+            </value>
+            <value>
+                <fullName>הוראה</fullName>
+                <default>false</default>
+                <label>הוראה</label>
+            </value>
+            <value>
+                <fullName>מכינות</fullName>
+                <default>false</default>
+                <label>מכינות</label>
+            </value>
+            <value>
+                <fullName>נגישות</fullName>
+                <default>false</default>
+                <label>נגישות</label>
+            </value>
+            <value>
+                <fullName>קידום נשים</fullName>
+                <default>false</default>
+                <label>קידום נשים</label>
+            </value>
+            <value>
+                <fullName>מלאכה</fullName>
+                <default>false</default>
+                <label>מלאכה</label>
+            </value>
+            <value>
+                <fullName>מיומנויות משרד</fullName>
+                <default>false</default>
+                <label>מיומנויות משרד</label>
+            </value>
+            <value>
+                <fullName>אחר</fullName>
+                <default>false</default>
+                <label>אחר</label>
+            </value>
+            <value>
+                <fullName>אילנאות</fullName>
+                <default>false</default>
+                <label>אילנאות</label>
+            </value>
+            <value>
+                <fullName>לוגיסטיקה</fullName>
+                <default>false</default>
+                <label>לוגיסטיקה</label>
+            </value>
+            <value>
+                <fullName>מכונות</fullName>
+                <default>false</default>
+                <label>מכונות</label>
+            </value>
+            <value>
+                <fullName>הארחה ורשתות מזון</fullName>
+                <default>false</default>
+                <label>הארחה ורשתות מזון</label>
+            </value>
+            <value>
+                <fullName>פלסטיקה</fullName>
+                <default>false</default>
+                <label>פלסטיקה</label>
+            </value>
+            <value>
+                <fullName>קוסמטיקה</fullName>
+                <default>false</default>
+                <label>קוסמטיקה</label>
+            </value>
+            <value>
+                <fullName>מתכת</fullName>
+                <default>false</default>
+                <label>מתכת</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Code__c</columns>
+    <columns>Magar_Code__c</columns>
+    <columns>Only_Prat__c</columns>
+    <columns>Details__c</columns>
+    <columns>StudiesScope__c</columns>
+    <columns>Sector__c</columns>
+    <columns>Profession_Cluster_Branch__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Domain__c</columns>
+    <columns>Kita_Bemifal__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Kita_Bemifal__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All</label>
+</ListView>

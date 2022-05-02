@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>סוג ההכשרה</label>
+    <name>FundsSource__c</name>
+    <picklistValues>
+        <masterLabel>Day Care</masterLabel>
+        <translation>מעונות יום</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ethiopian Immigrants</masterLabel>
+        <translation>יוצאי אתיופיה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green Route</masterLabel>
+        <translation>מסלול ירוק</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Haredim</masterLabel>
+        <translation>חרדים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hotels</masterLabel>
+        <translation>מלונאות</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Independent Parents</masterLabel>
+        <translation>הורים עצמאיים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minorities</masterLabel>
+        <translation>מיעוטים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Risk Youth</masterLabel>
+        <translation>צעירים בסיכון</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soldiers</masterLabel>
+        <translation>חיילים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Starter</masterLabel>
+        <translation>סטארטר</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Welfare</masterLabel>
+        <translation>רווחה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Welfare population</masterLabel>
+        <translation>אוכלוסיית רווחה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>With Budget</masterLabel>
+        <translation>מתוקצב</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>With Corona Budget</masterLabel>
+        <translation>מתוקצב קורונה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>With Disablities</masterLabel>
+        <translation>אנשים עם מוגבלות</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Youth</masterLabel>
+        <translation>נוער</translation>
+    </picklistValues>
+</CustomFieldTranslation>

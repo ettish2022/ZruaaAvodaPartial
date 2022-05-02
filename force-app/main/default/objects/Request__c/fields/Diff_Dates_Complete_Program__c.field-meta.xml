@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Diff_Dates_Complete_Program__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (FLOOR((Date_Program_Request__c - Date_Needs_Mapping__c)) &gt; 0, TEXT(FLOOR((Date_Program_Request__c  - Date_Needs_Mapping__c)) ) &amp; &quot; ימים &quot;, &quot;&quot;)
+&amp; IF(FLOOR(MOD((Date_Program_Request__c - Date_Needs_Mapping__c)* 24, 24 )) &gt; 0, TEXT(FLOOR(MOD((Date_Program_Request__c - Date_Needs_Mapping__c)* 24, 24 ))) &amp; &quot; שעות &quot;,&quot;&quot;)
+&amp; TEXT(ROUND(MOD((Date_Program_Request__c - Date_Needs_Mapping__c)* 24 * 60, 60 ), 0)) &amp; &quot; דקות &quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>זמן שעבר עד המלצה לתוכנית</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

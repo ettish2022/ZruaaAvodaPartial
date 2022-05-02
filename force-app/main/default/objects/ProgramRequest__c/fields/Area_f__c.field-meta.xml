@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_f__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Request__r.Area__c, &quot;National&quot;, &quot;כל הארץ&quot;,&quot;North&quot;, &quot;צפון&quot;, &quot;Center&quot;, &quot;מרכז&quot;, &quot;Jerusalem&quot;, &quot;ירושלים&quot;, &quot;South&quot;, &quot;דרום&quot;,&quot;אילת&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Area f</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

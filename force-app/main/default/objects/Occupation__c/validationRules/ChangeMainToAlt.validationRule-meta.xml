@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChangeMainToAlt</fullName>
+    <active>true</active>
+    <description>בשינוי עיסוק ראשי לאלטרנטיבי, יש לוודא שלא מחוברים אליו עיסוקים אלטרנטיבים</description>
+    <errorConditionFormula>AlternativeCount__c  &gt; 0 &amp;&amp;  IsAlternativeOccupation__c = TRUE &amp;&amp;  LookupToMainOccupation__c  &lt;&gt; NULL &amp;&amp;  
+ISCHANGED(IsAlternativeOccupation__c )</errorConditionFormula>
+    <errorMessage>יש לנתק תחילה את העיסוקים האלטרנטיביים המשויכים לעיסוק זה</errorMessage>
+</ValidationRule>

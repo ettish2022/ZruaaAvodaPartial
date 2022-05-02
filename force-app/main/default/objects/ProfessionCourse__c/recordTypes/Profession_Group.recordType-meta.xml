@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profession_Group</fullName>
+    <active>true</active>
+    <description>קבוצה</description>
+    <label>Profession Group</label>
+    <picklistValues>
+        <picklist>Domain__c</picklist>
+        <values>
+            <fullName>אופנה וטקסטיל</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אחר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אילנאות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>בניין וסביבה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>דפוס צילום והפקה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הארחה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הארחה ורשתות מזון</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הוראה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הצלה ומקצועות ימיים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חינוך וטיפול</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חקלאות ונוי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חשמל ואלקטרוניקה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>טיפוח החן</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>יישומי מחשב</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לוגיסטיקה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מחשבים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מיומנויות משרד</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מינהל</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מכונות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מכינות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מלאכה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מערכות אנרגיה ומים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מקצועות יהדות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מתכת</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מתכת%2Fמכונות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>נגישות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ניהול קריירה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>עץ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>פלסטיקה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>פרה-רפואי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>קוסמטיקה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>קידום נשים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>רכב</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>שונות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>שפות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>תחבורה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>תעשייה וניהול</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProfessionCourseStatus__c</picklist>
+        <values>
+            <fullName>אושר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>טיוטה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ממתין לאישור</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sector__c</picklist>
+        <values>
+            <fullName>אופנה וטקסטיל</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אחר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אילנאות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>בניין וסביבה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>דפוס צילום והפקה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הארחה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הארחה ורשתות מזון</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הוראה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הצלה ומקצועות ימיים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חינוך וטיפול</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חקלאות ונוי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>חשמל ואלקטרוניקה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>טיפוח החן</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לוגיסטיקה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מחשבים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מיומנויות משרד</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מינהל</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מכונות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מכינות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מלאכה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מערכות אנרגיה ומים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מקצועות יהדות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מתכת</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מתכת%2Fמכונות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>נגישות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>עץ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>פלסטיקה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>פרה-רפואי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>קוסמטיקה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>קידום נשים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>רכב</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>שונות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>תחבורה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>תעשייה וניהול</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

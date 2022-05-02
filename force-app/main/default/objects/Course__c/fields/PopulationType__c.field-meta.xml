@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PopulationType__c</fullName>
+    <description>קהל יעד</description>
+    <externalId>false</externalId>
+    <label>Population Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>General Public</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>Haredit community</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>Haredim Soldiers</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <label>Civilian Service</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>Arabic community</label>
+            </value>
+            <value>
+                <fullName>6</fullName>
+                <default>false</default>
+                <label>With Disablities</label>
+            </value>
+            <value>
+                <fullName>7</fullName>
+                <default>false</default>
+                <label>Risk Youth</label>
+            </value>
+            <value>
+                <fullName>8</fullName>
+                <default>false</default>
+                <label>Singular Parents</label>
+            </value>
+            <value>
+                <fullName>9</fullName>
+                <default>false</default>
+                <label>Welfare population</label>
+            </value>
+            <value>
+                <fullName>10</fullName>
+                <default>false</default>
+                <label>Ethiopian Immigrants</label>
+            </value>
+            <value>
+                <fullName>11</fullName>
+                <default>false</default>
+                <label>Soldiers</label>
+            </value>
+            <value>
+                <fullName>12</fullName>
+                <default>false</default>
+                <label>Senior Nursery Worker</label>
+            </value>
+            <value>
+                <fullName>13</fullName>
+                <default>false</default>
+                <label>Prisoners</label>
+            </value>
+            <value>
+                <fullName>14</fullName>
+                <default>false</default>
+                <label>New Immigrants</label>
+            </value>
+            <value>
+                <fullName>15</fullName>
+                <default>false</default>
+                <label>BackInQuestion Population</label>
+            </value>
+            <value>
+                <fullName>16</fullName>
+                <default>false</default>
+                <label>Women</label>
+            </value>
+            <value>
+                <fullName>17</fullName>
+                <default>false</default>
+                <label>Age 45+</label>
+            </value>
+            <value>
+                <fullName>18</fullName>
+                <default>false</default>
+                <label>General Crowd</label>
+            </value>
+            <value>
+                <fullName>19</fullName>
+                <default>false</default>
+                <label>Has Backround</label>
+            </value>
+            <value>
+                <fullName>אוכלוסיית יוצאים בשאלה</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>אוכלוסיית יוצאים בשאלה</label>
+            </value>
+            <value>
+                <fullName>אוכלוסיית רווחה</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>אוכלוסיית רווחה</label>
+            </value>
+            <value>
+                <fullName>אנשים עם מוגבלות</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>אנשים עם מוגבלות</label>
+            </value>
+            <value>
+                <fullName>אסירים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>אסירים</label>
+            </value>
+            <value>
+                <fullName>בעלי רקע בתחום</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>בעלי רקע בתחום</label>
+            </value>
+            <value>
+                <fullName>גילאי 45+</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>גילאי 45+</label>
+            </value>
+            <value>
+                <fullName>הורים יחידים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>הורים יחידים</label>
+            </value>
+            <value>
+                <fullName>הציבור הרחב</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>הציבור הרחב</label>
+            </value>
+            <value>
+                <fullName>חברה חרדית</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>חברה חרדית</label>
+            </value>
+            <value>
+                <fullName>חברה ערבית</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>חברה ערבית</label>
+            </value>
+            <value>
+                <fullName>חיילים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>חיילים</label>
+            </value>
+            <value>
+                <fullName>חיילים חרדים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>חיילים חרדים</label>
+            </value>
+            <value>
+                <fullName>יוצאי אתיופיה</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>יוצאי אתיופיה</label>
+            </value>
+            <value>
+                <fullName>מטפלות בעלות וותק</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>מטפלות בעלות וותק</label>
+            </value>
+            <value>
+                <fullName>נשים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>נשים</label>
+            </value>
+            <value>
+                <fullName>עולים חדשים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>עולים חדשים</label>
+            </value>
+            <value>
+                <fullName>צעירים בסיכון</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>צעירים בסיכון</label>
+            </value>
+            <value>
+                <fullName>קהל רחב</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>קהל רחב</label>
+            </value>
+            <value>
+                <fullName>שירות אזרחי</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>שירות אזרחי</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approving_Vouchers_Once</fullName>
+    <active>true</active>
+    <description>בחירת מספר שוברים מאושרים להקצאה רק פעם אחת</description>
+    <errorConditionFormula>NOT(ISNEW())&amp;&amp;
+ISCHANGED(vouchers_approved__c)&amp;&amp;
+PRIORVALUE(vouchers_approved__c) &lt;&gt; 0</errorConditionFormula>
+    <errorDisplayField>vouchers_approved__c</errorDisplayField>
+    <errorMessage>ניתן לאשר שוברים להקצאה רק פעם אחת</errorMessage>
+</ValidationRule>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shovar_Lamaasik</fullName>
+    <columns>NAME</columns>
+    <columns>Population_type__c</columns>
+    <columns>Stock_Root_Type__c</columns>
+    <columns>Primary_Contact_PR__c</columns>
+    <columns>Account__c</columns>
+    <columns>Status__c</columns>
+    <columns>Job_f__c</columns>
+    <columns>Training__c</columns>
+    <columns>Profession_f__c</columns>
+    <columns>Training_Start_Date_f__c</columns>
+    <columns>Training_Status_f__c</columns>
+    <columns>Program__c</columns>
+    <columns>vouchers_approved__c</columns>
+    <columns>Qty_vouchers_requested__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Program__c</field>
+        <operation>equals</operation>
+        <value>שובר למעסיק</value>
+    </filters>
+    <label>המלצות לתוכנית שובר למעסיק</label>
+    <sharedTo>
+        <group>Milgam_Operator</group>
+    </sharedTo>
+</ListView>

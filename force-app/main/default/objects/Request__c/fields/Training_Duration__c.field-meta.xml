@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Duration__c</fullName>
+    <externalId>false</externalId>
+    <label>משך הכשרה נדרשת</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>מתחת ל-100 שעות</fullName>
+                <default>false</default>
+                <label>מתחת ל-100 שעות</label>
+            </value>
+            <value>
+                <fullName>בין 100-300 שעות</fullName>
+                <default>false</default>
+                <label>בין 100-300 שעות</label>
+            </value>
+            <value>
+                <fullName>מעל ל-300 שעות</fullName>
+                <default>false</default>
+                <label>מעל ל-300 שעות</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

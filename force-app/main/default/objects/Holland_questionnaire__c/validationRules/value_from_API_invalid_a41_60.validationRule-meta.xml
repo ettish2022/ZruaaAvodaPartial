@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>value_from_API_invalid_a41_60</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR (
+AND (A41__c  &lt;&gt;&apos;1&apos;,A41__c  &lt;&gt;&apos;2&apos;,A41__c  &lt;&gt;&apos;3&apos;,A41__c  &lt;&gt;&apos;4&apos;,A41__c  &lt;&gt;&apos;5&apos;),
+AND (A42__c  &lt;&gt;&apos;1&apos;,A42__c  &lt;&gt;&apos;2&apos;,A42__c  &lt;&gt;&apos;3&apos;,A42__c  &lt;&gt;&apos;4&apos;,A42__c  &lt;&gt;&apos;5&apos;),
+AND (A43__c  &lt;&gt;&apos;1&apos;,A43__c  &lt;&gt;&apos;2&apos;,A43__c  &lt;&gt;&apos;3&apos;,A43__c  &lt;&gt;&apos;4&apos;,A43__c  &lt;&gt;&apos;5&apos;),
+AND (A44__c  &lt;&gt;&apos;1&apos;,A44__c  &lt;&gt;&apos;2&apos;,A44__c  &lt;&gt;&apos;3&apos;,A44__c  &lt;&gt;&apos;4&apos;,A44__c  &lt;&gt;&apos;5&apos;),
+AND (A45__c  &lt;&gt;&apos;1&apos;,A45__c  &lt;&gt;&apos;2&apos;,A45__c  &lt;&gt;&apos;3&apos;,A45__c  &lt;&gt;&apos;4&apos;,A45__c  &lt;&gt;&apos;5&apos;),
+AND (A46__c  &lt;&gt;&apos;1&apos;,A46__c  &lt;&gt;&apos;2&apos;,A46__c  &lt;&gt;&apos;3&apos;,A46__c  &lt;&gt;&apos;4&apos;,A46__c  &lt;&gt;&apos;5&apos;),
+AND (A47__c  &lt;&gt;&apos;1&apos;,A47__c  &lt;&gt;&apos;2&apos;,A47__c  &lt;&gt;&apos;3&apos;,A47__c  &lt;&gt;&apos;4&apos;,A47__c  &lt;&gt;&apos;5&apos;),
+AND (A48__c  &lt;&gt;&apos;1&apos;,A48__c  &lt;&gt;&apos;2&apos;,A48__c  &lt;&gt;&apos;3&apos;,A48__c  &lt;&gt;&apos;4&apos;,A48__c  &lt;&gt;&apos;5&apos;),
+AND (A49__c  &lt;&gt;&apos;1&apos;,A49__c  &lt;&gt;&apos;2&apos;,A49__c  &lt;&gt;&apos;3&apos;,A49__c  &lt;&gt;&apos;4&apos;,A49__c  &lt;&gt;&apos;5&apos;),
+AND (A50__c  &lt;&gt;&apos;1&apos;,A50__c  &lt;&gt;&apos;2&apos;,A50__c  &lt;&gt;&apos;3&apos;,A50__c  &lt;&gt;&apos;4&apos;,A50__c  &lt;&gt;&apos;5&apos;),
+AND (A51__c  &lt;&gt;&apos;1&apos;,A51__c  &lt;&gt;&apos;2&apos;,A51__c  &lt;&gt;&apos;3&apos;,A51__c  &lt;&gt;&apos;4&apos;,A51__c  &lt;&gt;&apos;5&apos;),
+AND (A52__c  &lt;&gt;&apos;1&apos;,A52__c  &lt;&gt;&apos;2&apos;,A52__c  &lt;&gt;&apos;3&apos;,A52__c  &lt;&gt;&apos;4&apos;,A52__c  &lt;&gt;&apos;5&apos;),
+AND (A53__c  &lt;&gt;&apos;1&apos;,A53__c  &lt;&gt;&apos;2&apos;,A53__c  &lt;&gt;&apos;3&apos;,A53__c  &lt;&gt;&apos;4&apos;,A53__c  &lt;&gt;&apos;5&apos;),
+AND (A54__c  &lt;&gt;&apos;1&apos;,A54__c  &lt;&gt;&apos;2&apos;,A54__c  &lt;&gt;&apos;3&apos;,A54__c  &lt;&gt;&apos;4&apos;,A54__c  &lt;&gt;&apos;5&apos;),
+AND (A55__c  &lt;&gt;&apos;1&apos;,A55__c  &lt;&gt;&apos;2&apos;,A55__c  &lt;&gt;&apos;3&apos;,A55__c  &lt;&gt;&apos;4&apos;,A55__c  &lt;&gt;&apos;5&apos;),
+AND (A56__c  &lt;&gt;&apos;1&apos;,A56__c  &lt;&gt;&apos;2&apos;,A56__c  &lt;&gt;&apos;3&apos;,A56__c  &lt;&gt;&apos;4&apos;,A56__c  &lt;&gt;&apos;5&apos;),
+AND (A57__c  &lt;&gt;&apos;1&apos;,A57__c  &lt;&gt;&apos;2&apos;,A57__c  &lt;&gt;&apos;3&apos;,A57__c  &lt;&gt;&apos;4&apos;,A57__c  &lt;&gt;&apos;5&apos;),
+AND (A58__c  &lt;&gt;&apos;1&apos;,A58__c  &lt;&gt;&apos;2&apos;,A58__c  &lt;&gt;&apos;3&apos;,A58__c  &lt;&gt;&apos;4&apos;,A58__c  &lt;&gt;&apos;5&apos;),
+AND (A59__c  &lt;&gt;&apos;1&apos;,A59__c  &lt;&gt;&apos;2&apos;,A59__c  &lt;&gt;&apos;3&apos;,A59__c  &lt;&gt;&apos;4&apos;,A59__c  &lt;&gt;&apos;5&apos;),
+AND (A60__c  &lt;&gt;&apos;1&apos;,A60__c  &lt;&gt;&apos;2&apos;,A60__c  &lt;&gt;&apos;3&apos;,A60__c  &lt;&gt;&apos;4&apos;,A60__c  &lt;&gt;&apos;5&apos;)
+)</errorConditionFormula>
+    <errorMessage>הערך שהתקבל מהממשק לא תקין</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoDuplicate</fullName>
+    <active>true</active>
+    <description>בסיבת הסגירה &quot;בקשה כפולה&quot; יש להזין את הבקשה המקורית</description>
+    <errorConditionFormula>ISPICKVAL( Closing_Reason__c, &quot;בקשה כפולה&quot;) &amp;&amp;  ISCHANGED(Closing_Reason__c) &amp;&amp;
+ISBLANK(Link_to_Duplicate_request__c)</errorConditionFormula>
+    <errorDisplayField>Link_to_Duplicate_request__c</errorDisplayField>
+    <errorMessage>שים לב! יש להזין את מספר בקשת המקור לבקשה הכפולה בסיבת סגירה זו</errorMessage>
+</ValidationRule>

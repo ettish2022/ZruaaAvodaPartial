@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expired_Voucher</fullName>
+    <active>false</active>
+    <description>שובר שפג תוקפו/ שלא אושר עובד עבורו, לא יכול להיות פעיל</description>
+    <errorConditionFormula>Active__c = TRUE &amp;&amp;  
+(ISPICKVAL( Status__c , &quot;נדחה- פג תוקף&quot;)  || ISPICKVAL( Status__c , &quot;נדחה- לא אושר עובד&quot;) )</errorConditionFormula>
+    <errorDisplayField>Active__c</errorDisplayField>
+    <errorMessage>שובר שנדחה לא יכול להיות פעיל</errorMessage>
+</ValidationRule>

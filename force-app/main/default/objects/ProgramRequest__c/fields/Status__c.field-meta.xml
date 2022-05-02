@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>הועבר למילוי טפסים</fullName>
+                <default>false</default>
+                <label>הועבר למילוי טפסים</label>
+            </value>
+            <value>
+                <fullName>הועבר לטיפול המפעיל</fullName>
+                <default>false</default>
+                <label>הועבר לטיפול המפעיל</label>
+            </value>
+            <value>
+                <fullName>נוצר קשר טלפוני עם המעסיק</fullName>
+                <default>false</default>
+                <label>נוצר קשר טלפוני עם המעסיק</label>
+            </value>
+            <value>
+                <fullName>קיבל פרטים, שוקל הצטרפות</fullName>
+                <default>false</default>
+                <label>קיבל פרטים, שוקל הצטרפות</label>
+            </value>
+            <value>
+                <fullName>מילא טפסים- בתהליך הצטרפות</fullName>
+                <default>false</default>
+                <label>מילא טפסים- בתהליך הצטרפות</label>
+            </value>
+            <value>
+                <fullName>איסוף צרכים מהמעסיק</fullName>
+                <default>false</default>
+                <label>איסוף צרכים מהמעסיק</label>
+            </value>
+            <value>
+                <fullName>השלמת מסמכים</fullName>
+                <default>false</default>
+                <label>השלמת מסמכים</label>
+            </value>
+            <value>
+                <fullName>נחתם הסכם עם המעסיק</fullName>
+                <default>false</default>
+                <label>נחתם הסכם עם המעסיק</label>
+            </value>
+            <value>
+                <fullName>המעסיק הצטרף להכשרה קיימת</fullName>
+                <default>false</default>
+                <label>המעסיק הצטרף להכשרה קיימת</label>
+            </value>
+            <value>
+                <fullName>גיבוש קבוצת מעסיקים</fullName>
+                <default>false</default>
+                <label>גיבוש קבוצת מעסיקים</label>
+            </value>
+            <value>
+                <fullName>הושלם תהליך הגיוס</fullName>
+                <default>false</default>
+                <label>הושלם תהליך הגיוס</label>
+            </value>
+            <value>
+                <fullName>המעסיק לא מעוניין להצטרף</fullName>
+                <default>false</default>
+                <label>המעסיק לא מעוניין להצטרף</label>
+            </value>
+            <value>
+                <fullName>הבקשה נדחתה</fullName>
+                <default>false</default>
+                <label>הבקשה נדחתה</label>
+            </value>
+            <value>
+                <fullName>אושר</fullName>
+                <default>false</default>
+                <label>אושר</label>
+            </value>
+            <value>
+                <fullName>טיפול בערעור</fullName>
+                <default>false</default>
+                <label>טיפול בערעור</label>
+            </value>
+            <value>
+                <fullName>בטיפול המשרד</fullName>
+                <default>false</default>
+                <label>בטיפול המשרד</label>
+            </value>
+            <value>
+                <fullName>תקציב נגמר</fullName>
+                <default>false</default>
+                <label>תקציב נגמר</label>
+            </value>
+            <value>
+                <fullName>הקצאת שוברים מלאה</fullName>
+                <default>false</default>
+                <label>הקצאת שוברים מלאה</label>
+            </value>
+            <value>
+                <fullName>הקצאת שוברים חלקית</fullName>
+                <default>false</default>
+                <label>הקצאת שוברים חלקית</label>
+            </value>
+            <value>
+                <fullName>אזל מלאי שוברים</fullName>
+                <default>false</default>
+                <label>אזל מלאי שוברים</label>
+            </value>
+            <value>
+                <fullName>הושלם</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>הושלם</label>
+            </value>
+            <value>
+                <fullName>המלצת רכז</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>המלצת רכז</label>
+            </value>
+            <value>
+                <fullName>הצטרף לתוכנית</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>הצטרף לתוכנית</label>
+            </value>
+            <value>
+                <fullName>לא מתאים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>לא מתאים</label>
+            </value>
+            <value>
+                <fullName>נדחה</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>נדחה</label>
+            </value>
+            <value>
+                <fullName>נוצר קשר ע&quot;י התוכנית</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>נוצר קשר ע&quot;י התוכנית</label>
+            </value>
+            <value>
+                <fullName>סיים את התוכנית</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>סיים את התוכנית</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

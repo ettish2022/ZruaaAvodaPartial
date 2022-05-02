@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quarter__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(MONTH(StartDate_Estimated__c),
+    1, &apos;א&apos;,
+    2, &apos;א&apos;,
+    3, &apos;א&apos;,
+    4, &apos;ב&apos;,
+    5, &apos;ב&apos;,
+    6, &apos;ב&apos;,
+    7, &apos;ג&apos;,
+    8, &apos;ג&apos;,
+    9, &apos;ג&apos;,
+    10, &apos;ד&apos;,
+    11, &apos;ד&apos;,
+    12, &apos;ד&apos;,
+    null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>רבעון</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

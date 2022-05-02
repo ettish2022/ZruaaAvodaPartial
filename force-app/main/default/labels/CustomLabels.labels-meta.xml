@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AddError_DuplicateBranch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddError_DuplicateBranch</shortDescription>
+        <value>לא ניתן ליצור את הסניף, כבר קיים סניף בשם זה מקושר לארגון זה במערכת</value>
+    </labels>
+    <labels>
+        <fullName>AddError_OnlyOneContact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddError_OnlyOneContact</shortDescription>
+        <value>Please note, only one contact must be selected</value>
+    </labels>
+    <labels>
+        <fullName>AddError_deserializeUntypedList</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddError_deserializeUntypedList</shortDescription>
+        <value>ERROR: deserializeUntypedList not success</value>
+    </labels>
+    <labels>
+        <fullName>AddError_deserializeUntypedMap</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddError_deserializeUntypedMap</shortDescription>
+        <value>ERROR: deserializeUntypedMap not success</value>
+    </labels>
+    <labels>
+        <fullName>AddError_noMoreThan10Vouchers</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddError_noMoreThan10Vouchers</shortDescription>
+        <value>לא ניתן להקצות יותר מ 10 שוברים למעסיק בשנה הנוכחית יש לך כבר מספר שוברים במערכת</value>
+    </labels>
+    <labels>
+        <fullName>AddError_noMoreThan15RejectedVouchers</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddError_noMoreThan15RejectedVouchers</shortDescription>
+        <value>לא ניתן להקצות יותר מ 15 שוברים עם סטטוס &quot;נדחה- פג תוקף&quot; למעסיק בשנה</value>
+    </labels>
+    <labels>
+        <fullName>AddError_noRightStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddError_noRightStatus</shortDescription>
+        <value>הסטטוס חייב להיות או &quot;הקצאת שוברים חלקית&quot; או &quot;הקצאת שוברים מלאה&quot; בשדה סטטוס</value>
+    </labels>
+    <labels>
+        <fullName>Did_not_received_full_answers_data</fullName>
+        <categories>error, holland</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Did not received full answers data</shortDescription>
+        <value>Did not received full answers data</value>
+    </labels>
+    <labels>
+        <fullName>No_matching_area_field_for_the_user_input</fullName>
+        <categories>error, holland</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No matching area field for the user input</shortDescription>
+        <value>No matching area field for the user input: &quot;{0}&quot;</value>
+    </labels>
+    <labels>
+        <fullName>No_score_value_for_Area_Field</fullName>
+        <categories>error, holland</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No score value for Area Field</shortDescription>
+        <value>No matching value for Area Type: &quot;{0}&quot;</value>
+    </labels>
+    <labels>
+        <fullName>Occupation_code_not_exists_in_the_system</fullName>
+        <categories>error, holland</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Occupation code not exists in the system</shortDescription>
+        <value>Occupation code not exists in the system</value>
+    </labels>
+    <labels>
+        <fullName>SiteCourses_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SiteCourses_Description</shortDescription>
+        <value>זרוע העבודה, מציעה לכם הכשרות מקצועיות בתחומים שונים ומגוונים במימון מלא ובפריסה ארצית, וכן, קורסים דיגיטליים ללימוד עצמי.</value>
+    </labels>
+    <labels>
+        <fullName>SiteCourses_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SiteCourses_Title</shortDescription>
+        <value>שער לקריירה - קורסים והכשרות במימון המדינה</value>
+    </labels>
+    <labels>
+        <fullName>TestUtils_RequestDetails</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TestUtils_RequestDetails</shortDescription>
+        <value>הגיע מטופס מקוון</value>
+    </labels>
+    <labels>
+        <fullName>expecting_for_X_fields_areas_from_input</fullName>
+        <categories>error, holland</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>expecting for X fields areas from input</shortDescription>
+        <value>Expecting for &quot;{0}&quot; fields areas from input</value>
+    </labels>
+</CustomLabels>

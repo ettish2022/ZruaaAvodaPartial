@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_ProgramRequest</fullName>
+    <columns>Program__c</columns>
+    <columns>NAME</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Request__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Mine</filterScope>
+    <label>התוכניות למעסיק שלי</label>
+    <sharedTo>
+        <role>Achshahra</role>
+        <role>Employers_Rep</role>
+    </sharedTo>
+</ListView>

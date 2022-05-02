@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Location_Theo__c</fullName>
+    <externalId>false</externalId>
+    <label>מיקום הכשרה עיונית</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type_Requested_Root_Theo__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>אצל המעסיק עצמו</fullName>
+                <default>false</default>
+                <label>אצל המעסיק עצמו</label>
+            </value>
+            <value>
+                <fullName>במוסד הכשרה מוכר</fullName>
+                <default>false</default>
+                <label>במוסד הכשרה מוכר</label>
+            </value>
+            <value>
+                <fullName>במוסד הכשרה שאינו מוכר</fullName>
+                <default>false</default>
+                <label>במוסד הכשרה שאינו מוכר</label>
+            </value>
+            <value>
+                <fullName>מבנה השייך לאיגוד מקצועי</fullName>
+                <default>false</default>
+                <label>מבנה השייך לאיגוד מקצועי</label>
+            </value>
+            <value>
+                <fullName>אצל אחד או יותר מהמעסיקים המאוגדים תחת האיגוד המקצועי</fullName>
+                <default>false</default>
+                <label>אצל אחד או יותר מהמעסיקים המאוגדים תחת האיגוד המקצועי</label>
+            </value>
+            <value>
+                <fullName>אצל אחד או יותר מהמעסיקים בקבוצת מעסיקים</fullName>
+                <default>false</default>
+                <label>אצל אחד או יותר מהמעסיקים בקבוצת מעסיקים</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>הכשרה למעסיק</controllingFieldValue>
+            <valueName>אצל המעסיק עצמו</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>הכשרה למעסיק</controllingFieldValue>
+            <controllingFieldValue>הכשרה לקבוצת מעסיקים</controllingFieldValue>
+            <controllingFieldValue>הכשרה בהובלה של איגוד מקצועי</controllingFieldValue>
+            <valueName>במוסד הכשרה מוכר</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>הכשרה למעסיק</controllingFieldValue>
+            <controllingFieldValue>הכשרה לקבוצת מעסיקים</controllingFieldValue>
+            <controllingFieldValue>הכשרה בהובלה של איגוד מקצועי</controllingFieldValue>
+            <valueName>במוסד הכשרה שאינו מוכר</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>הכשרה לקבוצת מעסיקים</controllingFieldValue>
+            <valueName>אצל אחד או יותר מהמעסיקים בקבוצת מעסיקים</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>הכשרה בהובלה של איגוד מקצועי</controllingFieldValue>
+            <valueName>מבנה השייך לאיגוד מקצועי</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>הכשרה בהובלה של איגוד מקצועי</controllingFieldValue>
+            <valueName>אצל אחד או יותר מהמעסיקים המאוגדים תחת האיגוד המקצועי</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

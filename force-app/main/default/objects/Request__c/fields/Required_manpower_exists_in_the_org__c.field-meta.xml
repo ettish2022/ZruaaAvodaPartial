@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_manpower_exists_in_the_org__c</fullName>
+    <externalId>false</externalId>
+    <label>Required manpower exists in the org</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>כן, לצורך הקניית מיומנויות במסגרת אותו התפקיד</fullName>
+                <default>false</default>
+                <label>כן, לצורך הקניית מיומנויות במסגרת אותו התפקיד</label>
+            </value>
+            <value>
+                <fullName>כן, לצורך הסבה לתפקיד חדש</fullName>
+                <default>false</default>
+                <label>כן, לצורך הסבה לתפקיד חדש</label>
+            </value>
+            <value>
+                <fullName>לא, הארגון מתכוון לגייס עובדים חדשים לטובת תפקיד זה באופן עצמאי</fullName>
+                <default>false</default>
+                <label>לא, הארגון מתכוון לגייס עובדים חדשים לטובת תפקיד זה באופן עצמאי</label>
+            </value>
+            <value>
+                <fullName>לא, הארגון מעוניין בגיוס עובדים כחלק משירותי זרוע עבודה</fullName>
+                <default>false</default>
+                <label>לא, הארגון מעוניין בגיוס עובדים כחלק משירותי זרוע עבודה</label>
+            </value>
+            <value>
+                <fullName>כן, מבוסס על עובדים קיימים בארגון אשר עוברים לתפקיד חדש</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>כן, מבוסס על עובדים קיימים בארגון אשר עוברים לתפקיד חדש</label>
+            </value>
+            <value>
+                <fullName>כן, מבוסס על עובדים קיימים בארגון שעוברים הכשרה כחלק מתפקידם לטובת שימור ורכישת מיומנויות נדרשות</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>כן, מבוסס על עובדים קיימים בארגון שעוברים הכשרה כחלק מתפקידם לטובת שימור ורכישת מיומנויות נדרשות</label>
+            </value>
+            <value>
+                <fullName>לא, הארגון מתכוון להכשיר עובדים הנמצאים כיום בחל&quot;ת</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>לא, הארגון מתכוון להכשיר עובדים הנמצאים כיום בחל&quot;ת</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maof_PR</fullName>
+    <booleanFilter>(1 AND 4) OR (2 AND 5) OR (3 AND 5)</booleanFilter>
+    <columns>Request__c</columns>
+    <columns>NAME</columns>
+    <columns>Primary_Contact_PR__c</columns>
+    <columns>Account__c</columns>
+    <columns>Status__c</columns>
+    <columns>Job_f__c</columns>
+    <columns>Training__c</columns>
+    <columns>Profession_f__c</columns>
+    <columns>Training_Status_f__c</columns>
+    <columns>Program__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Operator_Notes__c</columns>
+    <columns>NumberAccepted__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Program__c</field>
+        <operation>equals</operation>
+        <value>מסלול ירוק מכללות</value>
+    </filters>
+    <filters>
+        <field>Program__c</field>
+        <operation>equals</operation>
+        <value>מסלול ירוק מעסיקים</value>
+    </filters>
+    <filters>
+        <field>Program__c</field>
+        <operation>equals</operation>
+        <value>סטארטר</value>
+    </filters>
+    <filters>
+        <field>Request_Status_f__c</field>
+        <operation>equals</operation>
+        <value>הועבר למילוי טפסים</value>
+    </filters>
+    <filters>
+        <field>Request_Status_f__c</field>
+        <operation>equals</operation>
+        <value>הועבר לטיפול המפעיל</value>
+    </filters>
+    <label>המלצות לתוכניות של מעוף</label>
+    <sharedTo>
+        <group>Maof_Operator</group>
+    </sharedTo>
+</ListView>

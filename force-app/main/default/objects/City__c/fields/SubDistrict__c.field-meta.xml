@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubDistrict__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( 
+	SubDistrictNum__c ,
+	&apos;11&apos;, &apos;ירושלים&apos;,
+	&apos;21&apos;, &apos;צפת&apos;,
+	&apos;22&apos;, &apos;כנרת&apos;,
+	&apos;23&apos;, &apos;יזרעאל&apos;,
+	&apos;24&apos;, &apos;עכו&apos;,
+	&apos;25&apos;, &apos;יזרעאל&apos;,
+	&apos;29&apos;, &apos;גולן&apos;,
+	&apos;31&apos;, &apos;חיפה&apos;,
+	&apos;32&apos;, &apos;חדרה&apos;,
+	&apos;41&apos;, &apos;השרון&apos;,
+	&apos;42&apos;, &apos;פתח תקווה&apos;,
+	&apos;43&apos;, &apos;רמלה&apos;,
+	&apos;44&apos;, &apos;רחובות&apos;,
+	&apos;51&apos;, &apos;תל אביב&apos;,
+	&apos;52&apos;, &apos;תל אביב&apos;,
+	&apos;53&apos;, &apos;תל אביב&apos;,
+	&apos;61&apos;, &apos;אשקלון&apos;,
+	&apos;62&apos;, &apos;באר שבע&apos;,
+	&apos;71&apos;, &apos;ג\&apos;נין&apos;,
+	&apos;72&apos;, &apos;שכם&apos;,
+	&apos;73&apos;, &apos;טול כרם&apos;,
+	&apos;74&apos;, &apos;ראמאללה&apos;,
+	&apos;75&apos;, &apos;ירדן (יריחו)&apos;,
+	&apos;76&apos;, &apos;בית לחם&apos;,
+	&apos;77&apos;, &apos;חברון&apos;,
+	&apos;לא מוגדר&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>נפה</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

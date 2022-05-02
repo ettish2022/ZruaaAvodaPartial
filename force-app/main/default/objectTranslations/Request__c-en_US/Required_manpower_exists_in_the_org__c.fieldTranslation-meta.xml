@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Required_manpower_exists_in_the_org__c</name>
+    <picklistValues>
+        <masterLabel>כן, לצורך הסבה לתפקיד חדש</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>כן, לצורך הקניית מיומנויות במסגרת אותו התפקיד</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>לא, הארגון מעוניין בגיוס עובדים כחלק משירותי זרוע עבודה</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>לא, הארגון מתכוון לגייס עובדים חדשים לטובת תפקיד זה באופן עצמאי</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

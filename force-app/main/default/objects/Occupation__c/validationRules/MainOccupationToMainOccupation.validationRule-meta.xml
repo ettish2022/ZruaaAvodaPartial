@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MainOccupationToMainOccupation</fullName>
+    <active>true</active>
+    <description>מניעת קישור עיסוק ראשי לעיסוק ראשי או מניעת יצירת אלטרנטיבי ללא קישור לראשי</description>
+    <errorConditionFormula>(IsAlternativeOccupation__c = FALSE &amp;&amp;
+ LookupToMainOccupation__c  &lt;&gt; NULL)  || 
+(IsAlternativeOccupation__c = TRUE &amp;&amp;
+ LookupToMainOccupation__c  = NULL)</errorConditionFormula>
+    <errorDisplayField>LookupToMainOccupation__c</errorDisplayField>
+    <errorMessage>אם עיסוק זה אלטרנטיבי יש לסמן בתיבה ולשייך עיסוק ראשי מתאים</errorMessage>
+</ValidationRule>

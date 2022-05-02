@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>הסניף/מקום העבודה</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>סניף/מקום עבודה</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>הסניפים/מקומות העבודה</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>סניפים/מקומות עבודה</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Branch Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי כתובת</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>שם סניף/מקום עבודה</nameFieldLabel>
+    <quickActions>
+        <label></label>
+        <name>Update_Branch</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Free_Street_Not_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>No_Accurate_Street</name>
+    </validationRules>
+</CustomObjectTranslation>

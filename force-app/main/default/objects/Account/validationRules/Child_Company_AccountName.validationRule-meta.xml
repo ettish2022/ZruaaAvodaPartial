@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Company_AccountName</fullName>
+    <active>false</active>
+    <description>If the selected value in company type is &quot;child company&quot;, the user must insert the Parent account Name</description>
+    <errorConditionFormula>ISPICKVAL(Company_Type__c  , &apos;Child_Company&apos;)&amp;&amp;  Parent_Company__c = &quot;&quot; &amp;&amp; ParentId =&quot;&quot;</errorConditionFormula>
+    <errorMessage>Company type is &quot;child company&quot;, Parent account Name must be filled</errorMessage>
+</ValidationRule>

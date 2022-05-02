@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Maof_Operator</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Maof_Operator</label>
+        <sharedTo>
+            <group>Maof_Operator</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>סטארטר,מסלול ירוק מכללות,מסלול ירוק מעסיקים</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Milgam_Operator</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Milgam Operator</label>
+        <sharedTo>
+            <group>Milgam_Operator</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>שובר למעסיק</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PopulationMang_PR</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PopulationMang PR</label>
+        <sharedTo>
+            <role>Populations_Inspector</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>שובר למעסיק</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Read_ProgramRequest</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>קריאה לכל תוכניות למעסיק הרלוונטיות למשתמשות המנהלת</description>
+        <label>Read ProgramRequest</label>
+        <sharedTo>
+            <role>Employers_Rep</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>notEqual</operation>
+            <value>שובר למעסיק</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Scopes</fullName>
+    <columns>NAME</columns>
+    <columns>Scope_Code__c</columns>
+    <columns>Active__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <label>All Scopes</label>
+</ListView>

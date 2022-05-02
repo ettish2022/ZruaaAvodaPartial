@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_if_lamas_selected</fullName>
+    <active>true</active>
+    <description>וידוא שרק במידה והוזן בשדה מקור השם &quot;למס&quot; אז יש את האופציה לבחור שם עיסוק בלמ&quot;ס.</description>
+    <errorConditionFormula>not(or(ISPICKVAL( OccupationOriginName__c ,&apos;למ&quot;ס&apos;), (ISBLANK( LookupToLamasOccupationName__c ))))</errorConditionFormula>
+    <errorDisplayField>LookupToLamasOccupationName__c</errorDisplayField>
+    <errorMessage>יש לבחור בשדה מקור השם למ&quot;ס על מנת לשייך עיסוק למ&quot;ס.</errorMessage>
+</ValidationRule>

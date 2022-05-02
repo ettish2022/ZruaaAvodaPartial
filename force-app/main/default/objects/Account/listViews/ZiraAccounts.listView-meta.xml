@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZiraAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Business_Id__c</columns>
+    <columns>District__c</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Affiliation_To_Application__c</field>
+        <operation>equals</operation>
+        <value>זירת מעסיקים,זירת מעסיקים וממשק לפרט</value>
+    </filters>
+    <label>ארגונים בזירת מעסיקים</label>
+    <sharedTo>
+        <role>Populations_Inspector</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>College_ID_Not_Needed</fullName>
+    <active>true</active>
+    <description>If the Service provider selected value is Not College- the user Shouldn&apos;t enter College ID</description>
+    <errorConditionFormula>NOT(ISPICKVAL(Service_provider__c  , &quot;מכללה&quot;))&amp;&amp; NOT(ISBLANK( College_ID__c ))</errorConditionFormula>
+    <errorDisplayField>College_ID__c</errorDisplayField>
+    <errorMessage>College ID should be empty when Service provider is Not College</errorMessage>
+</ValidationRule>

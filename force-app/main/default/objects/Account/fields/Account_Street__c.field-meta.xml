@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Street__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>רחוב</description>
+    <externalId>false</externalId>
+    <label>Account Street</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Street__c.City__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Account_City__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Street__c</referenceTo>
+    <relationshipLabel>ארגונים</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>מספר עובדים</label>
+    <name>Employees__c</name>
+    <picklistValues>
+        <masterLabel>+ 500</masterLabel>
+        <translation>500 ומעלה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10-30</masterLabel>
+        <translation>10-30 עובדים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>100-250</masterLabel>
+        <translation>100-250 עובדים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>250-500</masterLabel>
+        <translation>250-500 עובדים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30-50</masterLabel>
+        <translation>30-50 עובדים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>50-100</masterLabel>
+        <translation>50-100 עובדים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>עד 10</masterLabel>
+        <translation>עד 10 עובדים</translation>
+    </picklistValues>
+</CustomFieldTranslation>

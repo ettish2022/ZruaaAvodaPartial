@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Affiliation_To_Application__c</fullName>
+    <description>שיוך למערכות</description>
+    <externalId>false</externalId>
+    <label>Affiliation To Application</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>זירת מעסיקים</fullName>
+                <default>true</default>
+                <label>זירת מעסיקים</label>
+            </value>
+            <value>
+                <fullName>ממשק לפרט</fullName>
+                <default>false</default>
+                <label>ממשק לפרט</label>
+            </value>
+            <value>
+                <fullName>זירת מעסיקים וממשק לפרט</fullName>
+                <default>false</default>
+                <label>זירת מעסיקים וממשק לפרט</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

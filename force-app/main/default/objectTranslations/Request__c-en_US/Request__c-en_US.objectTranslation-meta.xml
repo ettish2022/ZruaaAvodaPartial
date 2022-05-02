@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Requests</value>
+    </caseValues>
+    <layouts>
+        <layout>Child_Request</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>המלצות</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>כישורים נדרשים</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי בקשה</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי הכשרה</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי המעסיק</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטים כללים</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>שאלון למעסיק- איתור וגיוס עובדים</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Parent Request Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי המעסיק</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטים כללים</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Request Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>המלצות</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>כישורים נדרשים</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי בקשה</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי המעסיק</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטים כללים</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>שאלון למעסיק</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel></nameFieldLabel>
+    <quickActions>
+        <label></label>
+        <name>Callc</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Create_Recommendation</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Child_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Parent_Request</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BlockDuplicate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BusinessID_Not_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Correct_Duplicate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Hiring_Reason_Not_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>NoDuplicate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>No_Program_Closing_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>No_Recommendation_reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Request_Purpose_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

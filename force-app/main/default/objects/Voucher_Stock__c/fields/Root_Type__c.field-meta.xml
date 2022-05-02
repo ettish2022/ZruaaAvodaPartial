@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Root_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>סוג מסלול</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>מסלול תמרוץ להעסקת ג&apos;וניורים מאוכלוסיות הגיוון</fullName>
+                <default>true</default>
+                <label>מסלול תמרוץ להעסקת ג&apos;וניורים מאוכלוסיות הגיוון</label>
+            </value>
+            <value>
+                <fullName>מסלול תמרוץ חזרה לעבודה לעובדים עם מוגבלות ועובדים בני 40 פלוס</fullName>
+                <default>false</default>
+                <label>מסלול תמרוץ חזרה לעבודה לעובדים עם מוגבלות ועובדים בני 40 פלוס</label>
+            </value>
+            <value>
+                <fullName>מסלול ראשון</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>מסלול ראשון</label>
+            </value>
+            <value>
+                <fullName>מסלול שני</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>מסלול שני</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

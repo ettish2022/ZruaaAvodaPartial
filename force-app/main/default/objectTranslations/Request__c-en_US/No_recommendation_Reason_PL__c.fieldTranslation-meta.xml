@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>No_recommendation_Reason_PL__c</name>
+    <picklistValues>
+        <masterLabel>אחר</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>אין מענה לצורך הנדרש</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>גודל המעסיק לא מתאים</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>תחום העיסוק לא מתאים</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

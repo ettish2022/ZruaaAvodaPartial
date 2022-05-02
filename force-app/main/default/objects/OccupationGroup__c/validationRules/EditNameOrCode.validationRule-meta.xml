@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EditNameOrCode</fullName>
+    <active>true</active>
+    <description>לא לאפשר עריכה של שם משלח יד או קוד משלח יד לאחר יצירה</description>
+    <errorConditionFormula>NOT(ISNEW())&amp;&amp;
+(ISCHANGED( Name)  || ISCHANGED( OccupationGroupIscExtOId__c ))</errorConditionFormula>
+    <errorMessage>לא ניתן לערוך את השדות הבאים לאחר יצירה: שם משלח יד, קוד משלח יד.</errorMessage>
+</ValidationRule>

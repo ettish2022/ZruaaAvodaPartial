@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sector_Or_Domain_Not_Null</fullName>
+    <active>true</active>
+    <description>ביצירה מגמה יש לוודא הזנת ענף או תחומים שער לקריירה</description>
+    <errorConditionFormula>RecordType.DeveloperName =&quot;Profession&quot; &amp;&amp;  
+ISPICKVAL(Sector__c , &quot;&quot;) &amp;&amp;  ISPICKVAL(Domain__c , &quot;&quot;)</errorConditionFormula>
+    <errorMessage>שים לב, חובה למלא שדה ענף או שדה תחומים שער לקריירה</errorMessage>
+</ValidationRule>

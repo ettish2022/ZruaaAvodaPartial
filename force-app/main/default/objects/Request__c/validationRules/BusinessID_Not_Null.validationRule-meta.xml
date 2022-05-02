@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusinessID_Not_Null</fullName>
+    <active>false</active>
+    <description>If BusinessID is Null The User Can&apos;t Close the Request</description>
+    <errorConditionFormula>ISPICKVAL(Request_Status__c , &quot;סגור&quot;) &amp;&amp;   ISBLANK( Account__r.Business_Id__c )&amp;&amp;  ISCHANGED(Request_Status__c )</errorConditionFormula>
+    <errorDisplayField>Request_Status__c</errorDisplayField>
+    <errorMessage>לא ניתן לסגור בקשה ללא הזנת מספר ח.פ למעסיק</errorMessage>
+</ValidationRule>

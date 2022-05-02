@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digital_Course_Code</fullName>
+    <active>true</active>
+    <description>אם הצקבוקס &quot;מגמה דיגיטלית&quot; מסומן וגם קוד מגמה לא מתחיל ב 555, יש לזרוק הודעת שגיאה או אם הצקבוקס &quot;מגמה דיגיטלית&quot; לא מסומן וגם קוד מגמה מתחיל ב 555, יש לזרוק הודעת שגיאה למשתמש</description>
+    <errorConditionFormula>(Digital__c = FALSE &amp;&amp;  BEGINS(Code__c , &quot;555&quot;)) ||( Digital__c = TRUE &amp;&amp;  NOT(BEGINS(Code__c , &quot;555&quot;)))</errorConditionFormula>
+    <errorDisplayField>Code__c</errorDisplayField>
+    <errorMessage>בבחירת מגמה דיגיטלית קוד המגמה חייב להתחיל בספרות 555</errorMessage>
+</ValidationRule>

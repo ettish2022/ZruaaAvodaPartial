@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X8__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(  A8__c  , &apos;1&apos;, &quot;בכלל לא אוהב/ת&quot;
+, &apos;2&apos;, &quot;לא אוהב/ת&quot;, 
+&apos;3&apos;, &quot;לא בטוח/ה&quot;, 
+&apos;4&apos;, &quot;אוהב/ת&quot;,
+&apos;5&apos;, &quot;אוהב/ת מאוד&quot;
+,&quot; &quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>8.לעזור לאנשים עם קשיים נפשיים - תשובה</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

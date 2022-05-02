@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Rejection_Reason</fullName>
+    <active>true</active>
+    <description>אם הסטטוס הוא &quot;&apos;מעסיק לא מעוניין להצטרף&quot;/&quot;הבקשה נדחתה&quot; יש לוודא הזנת ערך בשדה סיבת אי קבלה להכשרה</description>
+    <errorConditionFormula>(ISPICKVAL(Status__c , &quot;המעסיק לא מעוניין להצטרף&quot;)  || ISPICKVAL(Status__c , &quot;הבקשה נדחתה&quot;) ) &amp;&amp;  Rejection_Reason__c =NULL &amp;&amp; ( RecordType.DeveloperName =&quot;Green_Course_College&quot;  || RecordType.DeveloperName =&quot;Green_Course_Employer&quot; || RecordType.DeveloperName =&quot;Starter&quot;)</errorConditionFormula>
+    <errorDisplayField>Rejection_Reason__c</errorDisplayField>
+    <errorMessage>יש למלא את השדה סיבת אי קבלה להכשרה</errorMessage>
+</ValidationRule>

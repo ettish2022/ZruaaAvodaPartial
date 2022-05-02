@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Same_code</fullName>
+    <active>true</active>
+    <description>וידוא שהקוד של עיסוק למ&quot;ס זהה לקוד של משלח היד.</description>
+    <errorConditionFormula>and(OccupationGroupIscoConnection__r.OccupationGroupIscExtOId__c  &lt;&gt; LookupToLamasOccupationName__r.OccupationIscoId__c ,  ISPICKVAL( OccupationOriginName__c , &apos;למ&quot;ס&apos;))</errorConditionFormula>
+    <errorMessage>יש להזין משלח יד ועיסוק למ&quot;ס עם קודים זהים</errorMessage>
+</ValidationRule>

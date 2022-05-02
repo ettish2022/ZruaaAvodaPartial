@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Employer_Rep_Requests</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>חשיפה לבקשות הרלוונטיות למנהלת המעסיקים בלבד</description>
+        <label>Employer Rep Requests</label>
+        <sharedTo>
+            <role>Employers_Rep</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>ProgramAffiliations__c</field>
+            <operation>notContain</operation>
+            <value>שובר למעסיק</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Milgam_Operator_Requests</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Milgam Operator Requests</label>
+        <sharedTo>
+            <group>Milgam_Operator</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>ProgramAffiliations__c</field>
+            <operation>contains</operation>
+            <value>שובר למעסיק</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PopulationMang_Requests</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>PopulationMang Requests</label>
+        <sharedTo>
+            <role>Populations_Inspector</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>ProgramAffiliations__c</field>
+            <operation>contains</operation>
+            <value>שובר למעסיק</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Read_Maof_Requests</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Read Maof Requests</label>
+        <sharedTo>
+            <group>Maof_Operator</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>ProgramAffiliations__c</field>
+            <operation>contains</operation>
+            <value>סטארטר</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ProgramAffiliations__c</field>
+            <operation>contains</operation>
+            <value>מסלול ירוק מעסיקים</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ProgramAffiliations__c</field>
+            <operation>contains</operation>
+            <value>מסלול ירוק מכללות</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

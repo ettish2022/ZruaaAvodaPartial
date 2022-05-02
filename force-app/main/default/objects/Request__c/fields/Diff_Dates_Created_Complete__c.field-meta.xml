@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Diff_Dates_Created_Complete__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (FLOOR((Date_Complete_Info__c - CreatedDate )) &gt; 0, TEXT(FLOOR((Date_Complete_Info__c - CreatedDate )) ) &amp; &quot; ימים &quot;, &quot;&quot;) 
+&amp; IF(FLOOR(MOD((Date_Complete_Info__c - CreatedDate )* 24, 24 )) &gt; 0, TEXT(FLOOR(MOD((Date_Complete_Info__c  - CreatedDate )* 24, 24 ))) &amp; &quot; שעות &quot;,&quot;&quot;) 
+&amp; TEXT(ROUND(MOD((Date_Complete_Info__c - CreatedDate )* 24 * 60, 60 ), 0)) &amp; &quot; דקות &quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>זמן שעבר עד השלמת פרטים</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

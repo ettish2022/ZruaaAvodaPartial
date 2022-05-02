@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partial_Approving_Vouchers</fullName>
+    <active>true</active>
+    <description>אכיפת סטטוס מתאים בהתאם להזנת מספר חלקי/מלא של שוברים מאושרים</description>
+    <errorConditionFormula>((ISCHANGED(vouchers_approved__c ) || ISCHANGED(Status__c )) &amp;&amp;
+vouchers_approved__c &lt;&gt; 0 &amp;&amp;
+((ISPICKVAL( Status__c , &quot;הקצאת שוברים מלאה&quot;)&amp;&amp;
+(Qty_vouchers_requested__c -  vouchers_approved__c&gt;0))
+||
+(ISPICKVAL( Status__c , &quot;הקצאת שוברים חלקית&quot;)&amp;&amp;
+(Qty_vouchers_requested__c -  vouchers_approved__c  &lt;=  0))))
+
+ || 
+
+(ISCHANGED(Status__c )&amp;&amp; vouchers_approved__c = 0 &amp;&amp;
+(ISPICKVAL( Status__c , &quot;הקצאת שוברים מלאה&quot;) || 
+ISPICKVAL( Status__c , &quot;הקצאת שוברים חלקית&quot;)))</errorConditionFormula>
+    <errorDisplayField>vouchers_approved__c</errorDisplayField>
+    <errorMessage>שים לב! יש לבחור בסטטוס הקצאת שוברים חלקית/מלאה, בהתאם לכמות השוברים המאושרים</errorMessage>
+</ValidationRule>

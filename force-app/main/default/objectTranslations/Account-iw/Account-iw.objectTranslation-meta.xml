@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>הארגון</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>ארגון</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>הארגונים</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>ארגונים</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label></label>
+            <section>סוג הארגון</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Account</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Employer</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>ServiceSupplier</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>במקרה שמדובר בחברת בת, אם קיים ארגון אב יש לקשרו בשדה &quot;ארגון אב&quot;</errorMessage>
+        <name>Child_Company_AccountName</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>במקרה שמדובר בחברת בת, אם קיים ארגון אב יש לקשרו בשדה &quot;ארגון אב&quot;. אחרת, יש למלא את שדה שם ארגון אב</errorMessage>
+        <name>Child_Company_ParentAccount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>לא ניתן לשמור ארגון אב לחברה שאיננה חברת בת. אנא מחקו את ארגון האב או שנו את סוג הארגון לחברת בת</errorMessage>
+        <name>College_ID_Not_Needed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>יש להזין את סמל המכללה</errorMessage>
+        <name>College_ID_Not_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>עוסק מורשה/מספר ח.פ חייב להיות באורך 9 ספרות</errorMessage>
+        <name>Correct_BusinessID</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>יש לסמן את השדה אין כתובת מדויקת ולבצע שמירה</errorMessage>
+        <name>No_Accurate_Street</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>לא ניתן לשמור ארגון אב לחברה שאיננה חברת בת. אנא מחקו את שם ארגון האב או שנו את סוג הארגון לחברת בת</errorMessage>
+        <name>Not_Child_Company_AccountName</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>לא ניתן לשמור ארגון אב לחברה שאיננה חברת בת. אנא מחקו את ארגון האב או שנו את סוג הארגון לחברת בת</errorMessage>
+        <name>Not_Child_Company_ParentAccount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>אנא הזינו את סוג נותן השירות</errorMessage>
+        <name>Service_Provider_Not_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>שים לב! סומן שאין כתובת מדויקת, אנא הזן רחוב במלל חופשי</errorMessage>
+        <name>Street_Not_Null</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

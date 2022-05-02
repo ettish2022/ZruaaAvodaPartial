@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Profession_from_Magar</fullName>
+        <ccEmails>Gil.Rubinshtein@labor.gov.il</ccEmails>
+        <description>Profession from Magar</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>‫haya.auerbach@labor.gov.il</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Professions_from_Magar</template>
+    </alerts>
+    <rules>
+        <fullName>Send Email with new professions</fullName>
+        <actions>
+            <name>Profession_from_Magar</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>ProfessionCourse__c.OJT__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

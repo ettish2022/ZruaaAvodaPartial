@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Free_Street_Not_Null</fullName>
+    <active>true</active>
+    <description>אם שדה &quot;אין כתובת מדויקת&quot; מסומן יש לוודא הזנה בשדה &quot;רחוב מלל חופשי&quot;</description>
+    <errorConditionFormula>No_Accurate_Address__c = True &amp;&amp;  Branch_Address__c =&quot;&quot;</errorConditionFormula>
+    <errorDisplayField>Branch_Address__c</errorDisplayField>
+    <errorMessage>שים לב! סומן שאין כתובת מדויקת, אנא הזן רחוב במלל חופשי</errorMessage>
+</ValidationRule>

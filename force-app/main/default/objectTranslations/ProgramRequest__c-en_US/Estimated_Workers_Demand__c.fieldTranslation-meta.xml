@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Estimated_Workers_Demand__c</name>
+    <picklistValues>
+        <masterLabel>0- 100 עובדים</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>100 - 1000 עובדים</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>אין לי מידע או אומדן</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>מעל 1000 עובדים</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

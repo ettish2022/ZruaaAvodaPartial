@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZiraPrograms</fullName>
+    <columns>NAME</columns>
+    <columns>Active__c</columns>
+    <columns>Branch__c</columns>
+    <columns>Operator__c</columns>
+    <columns>Treatment_by_an_external_Entity__c</columns>
+    <columns>Operator_Contact__c</columns>
+    <columns>Responsible_Contact__c</columns>
+    <columns>Landing_Page__c</columns>
+    <columns>Program_Description__c</columns>
+    <columns>External_Program_Id__c</columns>
+    <columns>Only_Prat__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Only_Prat__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>תוכניות בזירת מעסיקים</label>
+    <sharedTo>
+        <role>Populations_Inspector</role>
+    </sharedTo>
+</ListView>

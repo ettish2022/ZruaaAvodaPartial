@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_When_Approving_Vouchers</fullName>
+    <active>true</active>
+    <description>בחירת מספר שוברים מאושרים להקצאה רק כשהסטטוס מתאים</description>
+    <errorConditionFormula>(ISCHANGED(vouchers_approved__c)|| 
+ISCHANGED(Status__c )) &amp;&amp;
+vouchers_approved__c &lt;&gt; 0 &amp;&amp;
+NOT(
+ISPICKVAL( Status__c , &quot;הקצאת שוברים מלאה&quot;) || 
+ISPICKVAL( Status__c , &quot;הקצאת שוברים חלקית&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>vouchers_approved__c</errorDisplayField>
+    <errorMessage>ניתן לאשר שוברים להקצאה רק כשהסטטוס הוא הקצאת שוברים מלאה/חלקית</errorMessage>
+</ValidationRule>

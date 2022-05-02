@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>College_ID_Not_Null</fullName>
+    <active>true</active>
+    <description>If the Service provider selected value is College- the user must enter College ID</description>
+    <errorConditionFormula>ISPICKVAL(Service_provider__c  , &quot;מכללה&quot;) &amp;&amp;
+ ISBLANK( College_ID__c )</errorConditionFormula>
+    <errorDisplayField>College_ID__c</errorDisplayField>
+    <errorMessage>College ID is mandatory when Service provider selected value is College</errorMessage>
+</ValidationRule>

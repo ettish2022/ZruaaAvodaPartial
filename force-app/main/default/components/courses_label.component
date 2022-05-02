@@ -1,0 +1,13 @@
+<apex:component >
+    <script type="text/javascript">
+    function htmlSafeLineBreak(value){
+        return value.replace(/\n/g, '<br\\>');
+    }
+    const $Label = {
+        SiteCourses_Title: '{!JSENCODE($Label.SiteCourses_Title)}',
+        SiteCourses_Description : '{!JSENCODE($Label.SiteCourses_Description)}'
+    }
+    window["$Label"] = $Label;
+    window["$Site.BaseSecureUrl"] = '{!$Site.BaseSecureUrl}';
+    </script>
+</apex:component>

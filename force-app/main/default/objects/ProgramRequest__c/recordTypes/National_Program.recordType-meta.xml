@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>National_Program</fullName>
+    <active>true</active>
+    <label>תוכנית לאומית</label>
+    <picklistValues>
+        <picklist>Estimated_Workers_Demand__c</picklist>
+        <values>
+            <fullName>0- 100 עובדים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100 - 1000 עובדים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אין לי מידע או אומדן</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מעל 1000 עובדים</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_explanation__c</picklist>
+        <values>
+            <fullName>אחר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>המקצוע דורש רישוי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>העובדים לא יוכלו לעבוד על מכונה חדשה ללא הכשרה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>יש הבדל בשכר בין עובדים שהוכשרו לעובדים שלא הוכשרו</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא ניתן לקלוט ולהעסיק את העובדים ללא הכשרה מתאימה</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>אושר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הועבר לטיפול המפעיל</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מילא טפסים- בתהליך הצטרפות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>קיבל פרטים%2C שוקל הצטרפות</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Training_Location_Pract__c</picklist>
+        <values>
+            <fullName>אצל אחד או יותר מהמעסיקים בקבוצת מעסיקים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אצל אחד או יותר מהמעסיקים המאוגדים תחת האיגוד המקצועי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אצל המעסיק עצמו</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>במוסד הכשרה מוכר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>במוסד הכשרה שאינו מוכר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מבנה השייך לאיגוד מקצועי</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Training_Location_Theo__c</picklist>
+        <values>
+            <fullName>אצל אחד או יותר מהמעסיקים בקבוצת מעסיקים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אצל אחד או יותר מהמעסיקים המאוגדים תחת האיגוד המקצועי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אצל המעסיק עצמו</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>במוסד הכשרה מוכר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>במוסד הכשרה שאינו מוכר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מבנה השייך לאיגוד מקצועי</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Training_Status__c</picklist>
+        <values>
+            <fullName>אושר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הוקפא</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הסתיים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>התחיל</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>נדחה</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_Requested_Root_Pract__c</picklist>
+        <values>
+            <fullName>הכשרה בהובלה של איגוד מקצועי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הכשרה למעסיק</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הכשרה לקבוצת מעסיקים</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_Requested_Root_Theo__c</picklist>
+        <values>
+            <fullName>הכשרה בהובלה של איגוד מקצועי</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הכשרה למעסיק</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הכשרה לקבוצת מעסיקים</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

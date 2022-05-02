@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>תזמון לימודים</label>
+    <name>Timing__c</name>
+    <picklistValues>
+        <masterLabel>Evening</masterLabel>
+        <translation>לימודי ערב</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Morning</masterLabel>
+        <translation>לימודי בוקר</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Self Study</masterLabel>
+        <translation>לימוד עצמי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Semesterial</masterLabel>
+        <translation>סמסטריאלי</translation>
+    </picklistValues>
+</CustomFieldTranslation>

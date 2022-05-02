@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Employers_Programs</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Employers Programs</label>
+        <sharedTo>
+            <role>Employers_Rep</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Only_Prat__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>שובר למעסיק</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Read_Prat_Programs</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Read Prat Programs</label>
+        <sharedTo>
+            <role>Individual_Rep</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Only_Prat__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Correct_Duplicate</fullName>
+    <active>true</active>
+    <description>יש לקשר בקשת מקור שמשוייכת לאותו מעסיק כמו הבקשה הכפולה</description>
+    <errorConditionFormula>ISPICKVAL( Closing_Reason__c, &quot;בקשה כפולה&quot;)  &amp;&amp;
+Account__c  &lt;&gt; Link_to_Duplicate_request__r.Account__c &amp;&amp;
+ Link_to_Duplicate_request__c  &lt;&gt; NULL</errorConditionFormula>
+    <errorDisplayField>Link_to_Duplicate_request__c</errorDisplayField>
+    <errorMessage>שים לב! יש להזין מספר בקשה המשויכת למעסיק זהה למעסיק בבקשה זו</errorMessage>
+</ValidationRule>

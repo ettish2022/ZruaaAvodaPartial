@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apiVersion>50.0</apiVersion>
+    <choices>
+        <name>FullTime</name>
+        <choiceText>יום עבודה מלא</choiceText>
+        <dataType>String</dataType>
+    </choices>
+    <choices>
+        <name>No</name>
+        <choiceText>No</choiceText>
+        <dataType>String</dataType>
+    </choices>
+    <choices>
+        <name>ParttimeJob</name>
+        <choiceText>חצי משרה</choiceText>
+        <dataType>String</dataType>
+    </choices>
+    <choices>
+        <name>Yes</name>
+        <choiceText>Yes</choiceText>
+        <dataType>String</dataType>
+    </choices>
+    <constants>
+        <name>days5</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>5 ימים בשבוע</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <name>FullTiimeJob</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>full type</stringValue>
+        </value>
+    </constants>
+    <dynamicChoiceSets>
+        <name>District</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>District__c</picklistField>
+        <picklistObject>Lead</picklistObject>
+    </dynamicChoiceSets>
+    <interviewLabel>Choose Program {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Choose Program</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Business_Matching_Program</name>
+        <label>Business Matching Program</label>
+        <locationX>162</locationX>
+        <locationY>258</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>GroupCompany</name>
+            <choiceReferences>Yes</choiceReferences>
+            <choiceReferences>No</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>?האם שייך לקבוצת חברות</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>DistrictLeads</name>
+            <choiceReferences>District</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>פריסה גאוגרפית</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>NumOfWorkers</name>
+            <dataType>Number</dataType>
+            <fieldText>כמות בעובדים במפעל</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <scale>0</scale>
+        </fields>
+        <fields>
+            <name>ApprovedWorkers</name>
+            <dataType>Number</dataType>
+            <fieldText>כמות עובדים כיום בתחום ההכשרה המבוקש</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <scale>0</scale>
+        </fields>
+        <fields>
+            <name>JobType</name>
+            <choiceReferences>FullTime</choiceReferences>
+            <choiceReferences>ParttimeJob</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>אופי העבודה בעסק</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Business_Matching_Program</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>

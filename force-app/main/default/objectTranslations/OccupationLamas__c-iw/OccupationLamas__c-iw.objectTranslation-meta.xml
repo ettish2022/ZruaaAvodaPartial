@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>עיסוק-למ&quot;ס</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>עיסוקים-למ&quot;ס</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>עיסוק-למ&quot;ס Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי אישור</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>שפות</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

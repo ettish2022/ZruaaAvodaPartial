@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>הקורס</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Course</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>הקורסים</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Courses</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Course Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי הכשרה</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי הקורס</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>תמחור ותקציבים</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Digital Course Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי הקורס</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטים</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Course</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Digital_Course</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>שים לב המגמה שבחרת אינה מגמה דיגיטלית</errorMessage>
+        <name>Digital_Course_and_Profession</name>
+    </validationRules>
+</CustomObjectTranslation>

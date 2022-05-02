@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Sending_an_email_to_the_employer_if_he_withdrew_his_request</fullName>
+        <description>Sending an email to the employer if he withdrew his request</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Primary_Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/The_employer_withdrew_his_request_HTML</template>
+    </alerts>
+    <alerts>
+        <fullName>Sending_an_email_to_the_employer_if_no_program_was_recommended</fullName>
+        <description>Sending an email to the employer if no program was recommended</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Primary_Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/No_suitable_program_was_recommended</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Child_Request_Connected_to_Parent</fullName>
+        <field>Field1__c</field>
+        <literalValue>1</literalValue>
+        <name>Child_Request_Connected_to_Parent</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Child_Request_Not_Connected_to_Parent</fullName>
+        <field>Field1__c</field>
+        <literalValue>0</literalValue>
+        <name>Child_Request_Not_Connected_to_Parent</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Zero_Employees</fullName>
+        <description>בסגירת בקשה כפולה, יש לאפס את מספר העובדים</description>
+        <field>Employees__c</field>
+        <formula>0</formula>
+        <name>Zero_Employees</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Change Status to Complete details</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Request__c.Request_Status__c</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Request__c.OwnerId</field>
+            <operation>notEqual</operation>
+            <value>מירוות אלעזה</value>
+        </criteriaItems>
+        <description>After an initial change of ownership, the status of the Request will change from &quot;New&quot; to &quot;complete details&quot;</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Child_Request_Connected_to_Parent</fullName>
+        <actions>
+            <name>Child_Request_Connected_to_Parent</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>Request__c  &lt;&gt; &quot;&quot;</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Child_Request_Not_Connected_to_Parent</fullName>
+        <actions>
+            <name>Child_Request_Not_Connected_to_Parent</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>Request__c =&quot;&quot;</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Duplicate_Request</fullName>
+        <actions>
+            <name>Zero_Employees</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>אם הבקשה היא כפולה, יש לעשות שינויים בהתאם</description>
+        <formula>RecordType.DeveloperName=&quot;Child_Request&quot;&amp;&amp; ISPICKVAL( Closing_Reason__c , &quot;בקשה כפולה&quot;) &amp;&amp; NOT(ISBLANK(Link_to_Duplicate_request__c ))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Sending an email to the employer if he withdrew his request</fullName>
+        <actions>
+            <name>Sending_an_email_to_the_employer_if_he_withdrew_his_request</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <criteriaItems>
+            <field>Request__c.Closing_Reason__c</field>
+            <operation>equals</operation>
+            <value>המעסיק חזר בו מפנייתו</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Request__c.Closing_Reason__c</field>
+            <operation>equals</operation>
+            <value>לא ניתן ליצור קשר</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Request__c.Closing_Reason__c</field>
+            <operation>equals</operation>
+            <value>לא רלוונטי</value>
+        </criteriaItems>
+        <description>אם המעסיק לא מעוניין, לא ניתן ליצור קשר או לא רלוונטי- ייצא מייל למעסיק</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Sending an email to the employer if no program was recommended</fullName>
+        <actions>
+            <name>Sending_an_email_to_the_employer_if_no_program_was_recommended</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Request__c.Closing_Reason__c</field>
+            <operation>equals</operation>
+            <value>לא נמצאה תוכנית מתאימה</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

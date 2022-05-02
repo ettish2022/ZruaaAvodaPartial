@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>אופי הלימודים</label>
+    <name>StudiesType__c</name>
+    <picklistValues>
+        <masterLabel>Digital</masterLabel>
+        <translation>דיגיטלי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frontal</masterLabel>
+        <translation>פרונטלי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hybrid</masterLabel>
+        <translation>היברידי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Online</masterLabel>
+        <translation>מקוון</translation>
+    </picklistValues>
+</CustomFieldTranslation>

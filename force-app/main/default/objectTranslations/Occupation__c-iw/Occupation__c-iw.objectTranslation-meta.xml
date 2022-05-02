@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>עיסוק</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>עיסוקים</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>עיסוק Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>פרטי האישור</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>שפות</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ChangeMainToAlt</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>MainAndAltInSameOccGroup</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>MainOccupationToMainOccupation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Only_if_lamas_selected</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Same_code</name>
+    </validationRules>
+</CustomObjectTranslation>

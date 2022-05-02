@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>מגזר ערבי</fullName>
+                <default>false</default>
+                <label>מגזר ערבי</label>
+            </value>
+            <value>
+                <fullName>מגזר חרדי</fullName>
+                <default>false</default>
+                <label>מגזר חרדי</label>
+            </value>
+            <value>
+                <fullName>יוצאים בשאלה</fullName>
+                <default>false</default>
+                <label>יוצאים בשאלה</label>
+            </value>
+            <value>
+                <fullName>יוצאי אתיופיה</fullName>
+                <default>false</default>
+                <label>יוצאי אתיופיה</label>
+            </value>
+            <value>
+                <fullName>אוכלוסיית רווחה</fullName>
+                <default>false</default>
+                <label>אוכלוסיית רווחה</label>
+            </value>
+            <value>
+                <fullName>הורים יחידים</fullName>
+                <default>false</default>
+                <label>הורים יחידים</label>
+            </value>
+            <value>
+                <fullName>צעירים בסיכון</fullName>
+                <default>false</default>
+                <label>צעירים בסיכון</label>
+            </value>
+            <value>
+                <fullName>בעלי מוגבלויות</fullName>
+                <default>false</default>
+                <label>בעלי מוגבלויות</label>
+            </value>
+            <value>
+                <fullName>נמצאים ברצף טיפולי</fullName>
+                <default>false</default>
+                <label>נמצאים ברצף טיפולי</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

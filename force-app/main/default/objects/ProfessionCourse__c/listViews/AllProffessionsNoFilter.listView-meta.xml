@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllProffessionsNoFilter</fullName>
+    <columns>NAME</columns>
+    <columns>Code__c</columns>
+    <columns>Only_Prat__c</columns>
+    <columns>Details__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>SyllabusUrlFormula__c</columns>
+    <columns>Tags__c</columns>
+    <columns>StudiesScope__c</columns>
+    <columns>Domain__c</columns>
+    <columns>Url__c</columns>
+    <columns>Profession_Cluster_Branch__c</columns>
+    <columns>OJT__c</columns>
+    <columns>Profession_Code__c</columns>
+    <columns>Profession_Cluster__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>כל המגמות</label>
+</ListView>

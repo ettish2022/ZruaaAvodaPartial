@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>QuestionaireEducation__c</name>
+    <picklistValues>
+        <masterLabel>ללא תעודת בגרות</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>על תיכונית</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>תואר אקדמי</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>תעודת בגרות</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

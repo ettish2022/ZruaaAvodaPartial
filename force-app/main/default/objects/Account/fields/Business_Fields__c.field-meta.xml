@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Fields__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Fields</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>חקלאות, ייעור ודיג</fullName>
+                <default>false</default>
+                <label>חקלאות, ייעור ודיג</label>
+            </value>
+            <value>
+                <fullName>תעשייה, כריה וחציבה</fullName>
+                <default>false</default>
+                <label>תעשייה, כריה וחציבה</label>
+            </value>
+            <value>
+                <fullName>אספקת מים ואספקת חשמל , גז, מיזוג אוויר ושירותי פסולת</fullName>
+                <default>false</default>
+                <label>אספקת מים ואספקת חשמל , גז, מיזוג אוויר ושירותי פסולת</label>
+            </value>
+            <value>
+                <fullName>בינוי</fullName>
+                <default>false</default>
+                <label>בינוי</label>
+            </value>
+            <value>
+                <fullName>מסחר סיטונאי, קמעוני</fullName>
+                <default>false</default>
+                <label>מסחר סיטונאי, קמעוני</label>
+            </value>
+            <value>
+                <fullName>תיקון כלי רכב</fullName>
+                <default>false</default>
+                <label>תיקון כלי רכב</label>
+            </value>
+            <value>
+                <fullName>שירותי תחבורה, אחסנה, דואר ובלדרות</fullName>
+                <default>false</default>
+                <label>שירותי תחבורה, אחסנה, דואר ובלדרות</label>
+            </value>
+            <value>
+                <fullName>שירותי אירוח ואוכל</fullName>
+                <default>false</default>
+                <label>שירותי אירוח ואוכל</label>
+            </value>
+            <value>
+                <fullName>מערכות מידע, תקשורת, הפקות והוצאה לאור</fullName>
+                <default>false</default>
+                <label>מערכות מידע, תקשורת, הפקות והוצאה לאור</label>
+            </value>
+            <value>
+                <fullName>שירותים פיננסיים, שירותי ביטוח ופעילויות בנדל&quot;ן</fullName>
+                <default>false</default>
+                <label>שירותים פיננסיים, שירותי ביטוח ופעילויות בנדל&quot;ן</label>
+            </value>
+            <value>
+                <fullName>שירותים מקצועיים, מדעיים וטכניים ושירותי ניהול ותמיכה</fullName>
+                <default>false</default>
+                <label>שירותים מקצועיים, מדעיים וטכניים ושירותי ניהול ותמיכה</label>
+            </value>
+            <value>
+                <fullName>חינוך</fullName>
+                <default>false</default>
+                <label>חינוך</label>
+            </value>
+            <value>
+                <fullName>שירותי בריאות, רווחה וסעד</fullName>
+                <default>false</default>
+                <label>שירותי בריאות, רווחה וסעד</label>
+            </value>
+            <value>
+                <fullName>תכנות, מחשבים, ייעוץ בתחום המחשבים ושירותים נלווים אחרים</fullName>
+                <default>false</default>
+                <label>תכנות, מחשבים, ייעוץ בתחום המחשבים ושירותים נלווים אחרים</label>
+            </value>
+            <value>
+                <fullName>שירותי תקשורת</fullName>
+                <default>false</default>
+                <label>שירותי תקשורת</label>
+            </value>
+            <value>
+                <fullName>שירותי מידע</fullName>
+                <default>false</default>
+                <label>שירותי מידע</label>
+            </value>
+            <value>
+                <fullName>מו&quot;פ (למעט 722 מו&quot;פ במדעי החברה והרוח)</fullName>
+                <default>false</default>
+                <label>מו&quot;פ (למעט 722 מו&quot;פ במדעי החברה והרוח)</label>
+            </value>
+            <value>
+                <fullName>ייצור תרופות קונבנציונליות ותרופות הומאופתיות</fullName>
+                <default>false</default>
+                <label>ייצור תרופות קונבנציונליות ותרופות הומאופתיות</label>
+            </value>
+            <value>
+                <fullName>ייצור מחשבים, מכשור אלקטרוני ואופטי</fullName>
+                <default>false</default>
+                <label>ייצור מחשבים, מכשור אלקטרוני ואופטי</label>
+            </value>
+            <value>
+                <fullName>ייצור כלי טיס, חלליות וציוד נלווה</fullName>
+                <default>false</default>
+                <label>ייצור כלי טיס, חלליות וציוד נלווה</label>
+            </value>
+            <value>
+                <fullName>ייצור כימיקלים ומוצריהם</fullName>
+                <default>false</default>
+                <label>ייצור כימיקלים ומוצריהם</label>
+            </value>
+            <value>
+                <fullName>ייצור נשק ותחמושת</fullName>
+                <default>false</default>
+                <label>ייצור נשק ותחמושת</label>
+            </value>
+            <value>
+                <fullName>ייצור ציוד חשמלי</fullName>
+                <default>false</default>
+                <label>ייצור ציוד חשמלי</label>
+            </value>
+            <value>
+                <fullName>אחר-הייטק</fullName>
+                <default>false</default>
+                <label>אחר-הייטק</label>
+            </value>
+            <value>
+                <fullName>אחר</fullName>
+                <default>false</default>
+                <label>אחר</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

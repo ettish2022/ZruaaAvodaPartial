@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>קהל יעד</label>
+    <name>PopulationType__c</name>
+    <picklistValues>
+        <masterLabel>Age 45+</masterLabel>
+        <translation>גילאי 45+</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arabic community</masterLabel>
+        <translation>חברה ערבית</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BackInQuestion Population</masterLabel>
+        <translation>אוכלוסיית יוצאים בשאלה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Civilian Service</masterLabel>
+        <translation>שירות אזרחי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ethiopian Immigrants</masterLabel>
+        <translation>יוצאי אתיופיה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Crowd</masterLabel>
+        <translation>קהל רחב</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Public</masterLabel>
+        <translation>הציבור הרחב</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Haredim Soldiers</masterLabel>
+        <translation>חיילים חרדים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Haredit community</masterLabel>
+        <translation>חברה חרדית</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Has Backround</masterLabel>
+        <translation>בעלי רקע בתחום</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Immigrants</masterLabel>
+        <translation>עולים חדשים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prisoners</masterLabel>
+        <translation>אסירים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Risk Youth</masterLabel>
+        <translation>צעירים בסיכון</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Nursery Worker</masterLabel>
+        <translation>מטפלות בעלות וותק</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Singular Parents</masterLabel>
+        <translation>הורים יחידים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soldiers</masterLabel>
+        <translation>חיילים</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Welfare population</masterLabel>
+        <translation>אוכלוסיית רווחה</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>With Disablities</masterLabel>
+        <translation>אנשים עם מוגבלות</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Women</masterLabel>
+        <translation>נשים</translation>
+    </picklistValues>
+</CustomFieldTranslation>

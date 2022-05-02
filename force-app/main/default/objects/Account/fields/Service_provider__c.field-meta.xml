@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_provider__c</fullName>
+    <description>סוג נותן שירות</description>
+    <externalId>false</externalId>
+    <label>Service provider</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Partner__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>יחידה של זרוע עבודה</fullName>
+                <default>false</default>
+                <label>יחידה של זרוע עבודה</label>
+            </value>
+            <value>
+                <fullName>ספק רישוי לעיסוק</fullName>
+                <default>false</default>
+                <label>ספק רישוי לעיסוק</label>
+            </value>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>College</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>Operator</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>Zrua Avudas unit</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <label>Occupation licensing provider</label>
+            </value>
+            <value>
+                <fullName>מכללה</fullName>
+                <default>false</default>
+                <label>מכללה</label>
+            </value>
+            <value>
+                <fullName>מפעיל</fullName>
+                <default>false</default>
+                <label>מפעיל</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>יחידה של זרוע עבודה</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>ספק רישוי לעיסוק</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>4</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

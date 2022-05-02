@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusinessCluster__c</fullName>
+    <description>אשכולות</description>
+    <externalId>false</externalId>
+    <label>Business Cluster</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>Galilee and valleys</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>Western Galilee</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>Eastern Galilee</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <label>Eastern Negev</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>Western Negev</label>
+            </value>
+            <value>
+                <fullName>6</fullName>
+                <default>false</default>
+                <label>Beit Hakerem</label>
+            </value>
+            <value>
+                <fullName>7</fullName>
+                <default>false</default>
+                <label>Hasharon</label>
+            </value>
+            <value>
+                <fullName>8</fullName>
+                <default>false</default>
+                <label>Kinneret and valleys</label>
+            </value>
+            <value>
+                <fullName>9</fullName>
+                <default>false</default>
+                <label>Hamifratz authorities</label>
+            </value>
+            <value>
+                <fullName>10</fullName>
+                <default>false</default>
+                <label>Southern Sorek</label>
+            </value>
+            <value>
+                <fullName>11</fullName>
+                <default>false</default>
+                <label>Yosh</label>
+            </value>
+            <value>
+                <fullName>בית הכרם</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>בית הכרם</label>
+            </value>
+            <value>
+                <fullName>גליל והעמקים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>גליל והעמקים</label>
+            </value>
+            <value>
+                <fullName>גליל מזרחי</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>גליל מזרחי</label>
+            </value>
+            <value>
+                <fullName>גליל מערבי</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>גליל מערבי</label>
+            </value>
+            <value>
+                <fullName>השרון</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>השרון</label>
+            </value>
+            <value>
+                <fullName>יו&quot;ש</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>יו&quot;ש</label>
+            </value>
+            <value>
+                <fullName>כנרת והעמקים</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>כנרת והעמקים</label>
+            </value>
+            <value>
+                <fullName>נגב מזרחי</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>נגב מזרחי</label>
+            </value>
+            <value>
+                <fullName>נגב מערבי</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>נגב מערבי</label>
+            </value>
+            <value>
+                <fullName>רשויות המפרץ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>רשויות המפרץ</label>
+            </value>
+            <value>
+                <fullName>שורק דרומי</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>שורק דרומי</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

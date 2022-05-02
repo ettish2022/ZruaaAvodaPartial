@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Out_Of_Stock</fullName>
+    <active>true</active>
+    <description>אם המלאי הזמין הגיע ל0, לא ניתן לאשר הקצאת שוברים נוספים</description>
+    <errorConditionFormula>IF(ISCHANGED(Available_Voucher_stock__c), Available_Voucher_stock__c &lt; 0 ,
+(Available_Voucher_stock__c &lt;= 0 || vouchers_approved__c - Available_Voucher_stock__c &lt; 0)
+&amp;&amp; ISCHANGED(vouchers_approved__c )&amp;&amp; vouchers_approved__c &gt; 0 &amp;&amp;
+( ISPICKVAL( Status__c , &quot;הקצאת שוברים מלאה&quot;) || ISPICKVAL( Status__c , &quot;הקצאת שוברים חלקית&quot;) ))</errorConditionFormula>
+    <errorDisplayField>vouchers_approved__c</errorDisplayField>
+    <errorMessage>המלאי אזל, לא ניתן לאשר הקצאת שוברים</errorMessage>
+</ValidationRule>

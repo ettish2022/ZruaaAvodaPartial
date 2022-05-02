@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Training_Location_Pract__c</name>
+    <picklistValues>
+        <masterLabel>אצל אחד או יותר מהמעסיקים בקבוצת מעסיקים</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>אצל אחד או יותר מהמעסיקים המאוגדים תחת האיגוד המקצועי</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>אצל המעסיק עצמו</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>במוסד הכשרה מוכר</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>במוסד הכשרה שאינו מוכר</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>מבנה השייך לאיגוד מקצועי</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

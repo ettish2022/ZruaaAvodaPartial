@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_explanation__c</fullName>
+    <externalId>false</externalId>
+    <label>הסבר לבקשת המקצוע החדש</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>יש הבדל בשכר בין עובדים שהוכשרו לעובדים שלא הוכשרו</fullName>
+                <default>false</default>
+                <label>יש הבדל בשכר בין עובדים שהוכשרו לעובדים שלא הוכשרו</label>
+            </value>
+            <value>
+                <fullName>לא ניתן לקלוט ולהעסיק את העובדים ללא הכשרה מתאימה</fullName>
+                <default>false</default>
+                <label>לא ניתן לקלוט ולהעסיק את העובדים ללא הכשרה מתאימה</label>
+            </value>
+            <value>
+                <fullName>המקצוע דורש רישוי</fullName>
+                <default>false</default>
+                <label>המקצוע דורש רישוי</label>
+            </value>
+            <value>
+                <fullName>העובדים לא יוכלו לעבוד על מכונה חדשה ללא הכשרה</fullName>
+                <default>false</default>
+                <label>העובדים לא יוכלו לעבוד על מכונה חדשה ללא הכשרה</label>
+            </value>
+            <value>
+                <fullName>אחר</fullName>
+                <default>false</default>
+                <label>אחר</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

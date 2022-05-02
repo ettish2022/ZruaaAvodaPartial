@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Request_explanation__c</name>
+    <picklistValues>
+        <masterLabel>אחר</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>המקצוע דורש רישוי</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>העובדים לא יוכלו לעבוד על מכונה חדשה ללא הכשרה</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>יש הבדל בשכר בין עובדים שהוכשרו לעובדים שלא הוכשרו</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>לא ניתן לקלוט ולהעסיק את העובדים ללא הכשרה מתאימה</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

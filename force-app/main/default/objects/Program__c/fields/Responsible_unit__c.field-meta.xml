@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Responsible_unit__c</fullName>
+    <externalId>false</externalId>
+    <label>Responsible Unit</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vocational_training</fullName>
+                <default>false</default>
+                <label>הכשרה מקצועית</label>
+            </value>
+            <value>
+                <fullName>Employers_Administration</fullName>
+                <default>false</default>
+                <label>מינהלת מעסיקים</label>
+            </value>
+            <value>
+                <fullName>Population_Management</fullName>
+                <default>false</default>
+                <label>מנהל אוכלוסיות</label>
+            </value>
+            <value>
+                <fullName>Maat</fullName>
+                <default>false</default>
+                <label>מהט</label>
+            </value>
+            <value>
+                <fullName>Strategy</fullName>
+                <default>false</default>
+                <label>אסטרטגיה</label>
+            </value>
+            <value>
+                <fullName>Headquarters</fullName>
+                <default>false</default>
+                <label>מטה ממונה</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

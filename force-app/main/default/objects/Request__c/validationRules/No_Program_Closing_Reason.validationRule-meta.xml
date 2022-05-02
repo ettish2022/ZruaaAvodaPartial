@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Program_Closing_Reason</fullName>
+    <active>true</active>
+    <description>אם נבחרה סיבת סגירה &quot;לא נמצאה תוכנית מתאימה&quot; ייפתח שדה &quot;אי מתן המלצה לתוכנית&quot; כחובה למילוי</description>
+    <errorConditionFormula>ISPICKVAL( Closing_Reason__c, &quot;לא נמצאה תוכנית מתאימה&quot;) &amp;&amp;   
+ISPICKVAL( No_recommendation_Reason_PL__c  ,&quot;&quot; )</errorConditionFormula>
+    <errorDisplayField>No_recommendation_Reason_PL__c</errorDisplayField>
+    <errorMessage>יש לבחור את סיבת אי מתן המלצה לתוכנית</errorMessage>
+</ValidationRule>

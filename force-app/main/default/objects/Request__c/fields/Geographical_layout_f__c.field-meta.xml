@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geographical_layout_f__c</fullName>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(
+IF(INCLUDES( Account__r.Geographical_layout__c , &quot;צפון&quot;), &quot;צפון, &quot; , NULL) +
+IF(INCLUDES( Account__r.Geographical_layout__c , &quot;מרכז&quot;), &quot;מרכז, &quot; , NULL) +
+IF(INCLUDES( Account__r.Geographical_layout__c , &quot;אזור ירושלים&quot;), &quot;אזור ירושלים, &quot; , NULL) +
+IF(INCLUDES( Account__r.Geographical_layout__c , &quot;דרום&quot;), &quot;דרום, &quot; , NULL) +
+IF(INCLUDES( Account__r.Geographical_layout__c , &quot;ארצי&quot;), &quot;ארצי, &quot; , NULL)+ &quot;.&quot;, &quot;, .&quot;, &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Geographical layout f</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

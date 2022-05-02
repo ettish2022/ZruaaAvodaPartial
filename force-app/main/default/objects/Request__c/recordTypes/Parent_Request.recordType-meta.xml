@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Request</fullName>
+    <active>true</active>
+    <label>בקשה מרכזת</label>
+    <picklistValues>
+        <picklist>Area__c</picklist>
+        <values>
+            <fullName>Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eilat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jerusalem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Closing_Reason__c</picklist>
+        <values>
+            <fullName>בקשה כפולה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הועבר לטיפול בתוכנית</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>המעסיק חזר בו מפנייתו</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא ניתן ליצור קשר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא נמצאה תוכנית מתאימה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא רלוונטי</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact_Department__c</picklist>
+        <values>
+            <fullName>מחלקת משאבי אנוש</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מחלקת שיווק</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Existing_Mentor__c</picklist>
+        <values>
+            <fullName>כן</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא ידוע</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hiring_Reason__c</picklist>
+        <values>
+            <fullName>אחר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>גידול הפעילות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מחסור במיומנויות נדרשות לביצוע התפקיד</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>תחלופת עובדים</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Job_Duration__c</picklist>
+        <values>
+            <fullName>משרה זמנית</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>משרה קבועה</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Known_Training_Organization__c</picklist>
+        <values>
+            <fullName>כן</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא ידוע</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>No_recommendation_Reason_PL__c</picklist>
+        <values>
+            <fullName>אחר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אין מענה לצורך הנדרש</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>גודל המעסיק לא מתאים</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>תחום העיסוק לא מתאים</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>On_Job_Training__c</picklist>
+        <values>
+            <fullName>כן</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא ידוע</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Recognized_Training__c</picklist>
+        <values>
+            <fullName>כן</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא ידוע</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Purpose__c</picklist>
+        <values>
+            <fullName>אחר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>בקשה למידע</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>הסבה מקצועית</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>סיוע בגיוס עובדים להכשרה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>סיוע במימון הכשרה מקצועית</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>שדרוג מיומנויות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>שדרוג עובדים</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Status__c</picklist>
+        <values>
+            <fullName>CloseRequest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete_Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs_mapping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>programRequest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>סגור</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Required_languages__c</picklist>
+        <values>
+            <fullName>אחר</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אמהרית</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>אנגלית</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>עברית</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ערבית</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>רוסית</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Required_manpower_exists_in_the_org__c</picklist>
+        <values>
+            <fullName>כן%2C לצורך הסבה לתפקיד חדש</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>כן%2C לצורך הקניית מיומנויות במסגרת אותו התפקיד</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא%2C הארגון מעוניין בגיוס עובדים כחלק משירותי זרוע עבודה</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא%2C הארגון מתכוון לגייס עובדים חדשים לטובת תפקיד זה באופן עצמאי</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Training_Duration__c</picklist>
+        <values>
+            <fullName>בין 100-300 שעות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מעל ל-300 שעות</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>מתחת ל-100 שעות</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Training_was_executed__c</picklist>
+        <values>
+            <fullName>כן</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>לא ידוע</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

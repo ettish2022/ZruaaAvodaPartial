@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Child_Company_ParentAccount</fullName>
+    <active>true</active>
+    <description>If the selected value in company type is not &quot;child company&quot;, the user won&apos;t be able to insert the Parent account</description>
+    <errorConditionFormula>NOT(ISPICKVAL(Company_Type__c  , &apos;Child_Company&apos;))
+&amp;&amp; ParentId  &lt;&gt; &quot;&quot;</errorConditionFormula>
+    <errorMessage>Cannot save parent company for a company that does not a child company. Delete the parent company name or change the company type to child company.</errorMessage>
+</ValidationRule>

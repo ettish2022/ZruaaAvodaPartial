@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>בניין וסביבה</fullName>
+        <default>false</default>
+        <label>בניין וסביבה</label>
+    </customValue>
+    <customValue>
+        <fullName>מחשבים</fullName>
+        <default>false</default>
+        <label>מחשבים</label>
+    </customValue>
+    <customValue>
+        <fullName>תחבורה</fullName>
+        <default>false</default>
+        <label>תחבורה</label>
+    </customValue>
+    <customValue>
+        <fullName>דפוס צילום והפקה</fullName>
+        <default>false</default>
+        <label>דפוס צילום והפקה</label>
+    </customValue>
+    <customValue>
+        <fullName>טיפוח החן</fullName>
+        <default>false</default>
+        <label>טיפוח החן</label>
+    </customValue>
+    <customValue>
+        <fullName>הצלה ומקצועות ימיים</fullName>
+        <default>false</default>
+        <label>הצלה ומקצועות ימיים</label>
+    </customValue>
+    <customValue>
+        <fullName>מינהל</fullName>
+        <default>false</default>
+        <label>מינהל</label>
+    </customValue>
+    <customValue>
+        <fullName>חינוך וטיפול</fullName>
+        <default>false</default>
+        <label>חינוך וטיפול</label>
+    </customValue>
+    <customValue>
+        <fullName>מערכות אנרגיה ומים</fullName>
+        <default>false</default>
+        <label>מערכות אנרגיה ומים</label>
+    </customValue>
+    <customValue>
+        <fullName>מתכת/מכונות</fullName>
+        <default>false</default>
+        <label>מתכת/מכונות</label>
+    </customValue>
+    <customValue>
+        <fullName>רכב</fullName>
+        <default>false</default>
+        <label>רכב</label>
+    </customValue>
+    <customValue>
+        <fullName>הארחה</fullName>
+        <default>false</default>
+        <label>הארחה</label>
+    </customValue>
+    <customValue>
+        <fullName>חשמל ואלקטרוניקה</fullName>
+        <default>false</default>
+        <label>חשמל ואלקטרוניקה</label>
+    </customValue>
+    <customValue>
+        <fullName>אופנה וטקסטיל</fullName>
+        <default>false</default>
+        <label>אופנה וטקסטיל</label>
+    </customValue>
+    <customValue>
+        <fullName>עץ</fullName>
+        <default>false</default>
+        <label>עץ</label>
+    </customValue>
+    <customValue>
+        <fullName>פרה-רפואי</fullName>
+        <default>false</default>
+        <label>פרה-רפואי</label>
+    </customValue>
+    <customValue>
+        <fullName>שונות</fullName>
+        <default>false</default>
+        <label>שונות</label>
+    </customValue>
+    <customValue>
+        <fullName>מקצועות יהדות</fullName>
+        <default>false</default>
+        <label>מקצועות יהדות</label>
+    </customValue>
+    <customValue>
+        <fullName>תעשייה וניהול</fullName>
+        <default>false</default>
+        <label>תעשייה וניהול</label>
+    </customValue>
+    <customValue>
+        <fullName>חקלאות ונוי</fullName>
+        <default>false</default>
+        <label>חקלאות ונוי</label>
+    </customValue>
+    <customValue>
+        <fullName>הוראה</fullName>
+        <default>false</default>
+        <label>הוראה</label>
+    </customValue>
+    <customValue>
+        <fullName>מכינות</fullName>
+        <default>false</default>
+        <label>מכינות</label>
+    </customValue>
+    <customValue>
+        <fullName>נגישות</fullName>
+        <default>false</default>
+        <label>נגישות</label>
+    </customValue>
+    <customValue>
+        <fullName>קידום נשים</fullName>
+        <default>false</default>
+        <label>קידום נשים</label>
+    </customValue>
+    <customValue>
+        <fullName>מלאכה</fullName>
+        <default>false</default>
+        <label>מלאכה</label>
+    </customValue>
+    <customValue>
+        <fullName>מיומנויות משרד</fullName>
+        <default>false</default>
+        <label>מיומנויות משרד</label>
+    </customValue>
+    <customValue>
+        <fullName>מכינות עברית</fullName>
+        <default>false</default>
+        <label>מכינות עברית</label>
+    </customValue>
+    <customValue>
+        <fullName>ניהול קריירה</fullName>
+        <default>false</default>
+        <label>ניהול קריירה</label>
+    </customValue>
+    <customValue>
+        <fullName>יישומי מחשב</fullName>
+        <default>false</default>
+        <label>יישומי מחשב</label>
+    </customValue>
+    <customValue>
+        <fullName>שפות</fullName>
+        <default>false</default>
+        <label>שפות</label>
+    </customValue>
+    <customValue>
+        <fullName>אילנאות</fullName>
+        <default>false</default>
+        <label>אילנאות</label>
+    </customValue>
+    <customValue>
+        <fullName>אחר</fullName>
+        <default>false</default>
+        <label>אחר</label>
+    </customValue>
+    <customValue>
+        <fullName>הארחה ורשתות מזון</fullName>
+        <default>false</default>
+        <label>הארחה ורשתות מזון</label>
+    </customValue>
+    <customValue>
+        <fullName>מתכת</fullName>
+        <default>false</default>
+        <label>מתכת</label>
+    </customValue>
+    <customValue>
+        <fullName>מכונות</fullName>
+        <default>false</default>
+        <label>מכונות</label>
+    </customValue>
+    <customValue>
+        <fullName>לוגיסטיקה</fullName>
+        <default>false</default>
+        <label>לוגיסטיקה</label>
+    </customValue>
+    <customValue>
+        <fullName>פלסטיקה</fullName>
+        <default>false</default>
+        <label>פלסטיקה</label>
+    </customValue>
+    <customValue>
+        <fullName>קוסמטיקה</fullName>
+        <default>false</default>
+        <label>קוסמטיקה</label>
+    </customValue>
+    <customValue>
+        <fullName>אדריכלות</fullName>
+        <default>false</default>
+        <label>אדריכלות</label>
+    </customValue>
+    <customValue>
+        <fullName>כימיה</fullName>
+        <default>false</default>
+        <label>כימיה</label>
+    </customValue>
+    <customValue>
+        <fullName>ביוטכנולוגיה</fullName>
+        <default>false</default>
+        <label>ביוטכנולוגיה</label>
+    </customValue>
+    <customValue>
+        <fullName>הנדסת קול</fullName>
+        <default>false</default>
+        <label>הנדסת קול</label>
+    </customValue>
+    <customValue>
+        <fullName>עיצוב מדיה</fullName>
+        <default>false</default>
+        <label>עיצוב מדיה</label>
+    </customValue>
+    <masterLabel>ענף</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

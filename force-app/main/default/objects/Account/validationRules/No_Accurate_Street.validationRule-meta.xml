@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Accurate_Street</fullName>
+    <active>true</active>
+    <description>אם שדה &quot;אין כתובת מדויקת&quot; אינו מסומן, לא ניתן להזין את שדה רחוב מלל חופשי</description>
+    <errorConditionFormula>No_Accurate_Address__c = False &amp;&amp;  Account_Address__c &lt;&gt;&quot;&quot;</errorConditionFormula>
+    <errorDisplayField>No_Accurate_Address__c</errorDisplayField>
+    <errorMessage>Check the field &quot;No Accurate Address&quot; and save</errorMessage>
+</ValidationRule>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Purpose__c</fullName>
+    <externalId>false</externalId>
+    <label>מטרת הבקשה</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>סיוע במימון הכשרה מקצועית</fullName>
+                <default>false</default>
+                <label>סיוע במימון הכשרה מקצועית</label>
+            </value>
+            <value>
+                <fullName>הסבה מקצועית</fullName>
+                <default>false</default>
+                <label>הסבה מקצועית</label>
+            </value>
+            <value>
+                <fullName>סיוע בגיוס עובדים להכשרה</fullName>
+                <default>false</default>
+                <label>סיוע בגיוס עובדים להכשרה</label>
+            </value>
+            <value>
+                <fullName>בקשה למידע</fullName>
+                <default>false</default>
+                <label>בקשה למידע</label>
+            </value>
+            <value>
+                <fullName>שדרוג מיומנויות</fullName>
+                <default>false</default>
+                <label>שדרוג מיומנויות</label>
+            </value>
+            <value>
+                <fullName>שדרוג עובדים</fullName>
+                <default>false</default>
+                <label>שדרוג עובדים</label>
+            </value>
+            <value>
+                <fullName>אחר</fullName>
+                <default>false</default>
+                <label>אחר</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

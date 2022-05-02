@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Achshara_View_Account</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>להציג את כל החשבונות רק אם השדה &apos;שיוך למערכת&apos; שווה ל&apos;זירת מעסיקים&apos; או &apos;זירת מעסיקים וממשק לפרט&apos;</description>
+        <label>Achshara View Account</label>
+        <sharedTo>
+            <role>Achshahra</role>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>Affiliation_To_Application__c</field>
+            <operation>equals</operation>
+            <value>זירת מעסיקים</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Affiliation_To_Application__c</field>
+            <operation>equals</operation>
+            <value>זירת מעסיקים וממשק לפרט</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Edit_Accounts</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Employers Rep get edit permissions for all accounts</description>
+        <label>Edit Accounts</label>
+        <sharedTo>
+            <role>Employers_Rep</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Affiliation_To_Application__c</field>
+            <operation>equals</operation>
+            <value>זירת מעסיקים,זירת מעסיקים וממשק לפרט</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Individuals_Edit_Partners</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Individual Reps get edit permissions to Partners acoounts</description>
+        <label>Individuals Edit Partners</label>
+        <sharedTo>
+            <role>Individual_Rep</role>
+        </sharedTo>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <field>Partner__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Affiliation_To_Application__c</field>
+            <operation>equals</operation>
+            <value>ממשק לפרט</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Affiliation_To_Application__c</field>
+            <operation>equals</operation>
+            <value>זירת מעסיקים וממשק לפרט</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Milgam_Operator_Accounts</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Milgam Operator Accounts</label>
+        <sharedTo>
+            <group>Milgam_Operator</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>ProgramAffiliations__c</field>
+            <operation>contains</operation>
+            <value>שובר למעסיק</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>PopulationMang_Accounts</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>PopulationMang Accounts</label>
+        <sharedTo>
+            <role>Populations_Inspector</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>ProgramAffiliations__c</field>
+            <operation>contains</operation>
+            <value>שובר למעסיק</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Strategy_Accounts</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>ארגונים המהווים ספקי רישוי לאישור עסקי של עיסוקים במערכת</description>
+        <label>Strategy Accounts</label>
+        <sharedTo>
+            <role>Strategy</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Partner__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Service_provider__c</field>
+            <operation>equals</operation>
+            <value>ספק רישוי לעיסוק</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

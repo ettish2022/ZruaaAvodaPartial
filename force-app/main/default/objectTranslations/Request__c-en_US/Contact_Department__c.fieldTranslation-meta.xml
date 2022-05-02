@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Contact_Department__c</name>
+    <picklistValues>
+        <masterLabel>מחלקת משאבי אנוש</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>מחלקת שיווק</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>
